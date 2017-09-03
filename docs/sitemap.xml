@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/post/prismjs/</loc>
+    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/vs-code-shortcuts/</loc>
+    <lastmod>2017-07-22T15:31:32-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/chrome-tips/</loc>
+    <lastmod>2017-07-14T21:04:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/html/</loc>
+    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/javascript/</loc>
+    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/keyboard-shortcuts/</loc>
+    <lastmod>2017-07-22T15:31:32-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/static-site-generation/</loc>
+    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vs-code/</loc>
+    <lastmod>2017-07-22T15:31:32-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

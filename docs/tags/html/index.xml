@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on One Problem Solved</title>
+    <link>/tags/html/</link>
+    <description>Recent content in Html on One Problem Solved</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jul 2017 15:18:15 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Syntax Highlighting With Prismjs</title>
+      <link>/post/prismjs/</link>
+      <pubDate>Tue, 25 Jul 2017 15:18:15 -0700</pubDate>
+      
+      <guid>/post/prismjs/</guid>
+      <description>I use Prismjs for code syntax highlighting on this site. I write pages in Markdown and I use Hugo to generate the site.
+Prism allows you to choose only the languages and features you want when you download it, so you can minimize its footprint.
+Basic Markdown code fences with a language annotation do basic highlighting.
+Here is the Markdown:
+ ``` fsharp // Add some numbers let addTwo a b : a + b addTwo 1 2 | addTwo 3 | addTwo 4 // Get distinct items let myList : [ &#34;</description>
+    </item>
+    
+  </channel>
+</rss>

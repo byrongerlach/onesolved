@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>One Problem Solved</title>
+    <link>/</link>
+    <description>Recent content on One Problem Solved</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jul 2017 15:18:15 -0700</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Syntax Highlighting With Prismjs</title>
+      <link>/post/prismjs/</link>
+      <pubDate>Tue, 25 Jul 2017 15:18:15 -0700</pubDate>
+      
+      <guid>/post/prismjs/</guid>
+      <description>I use Prismjs for code syntax highlighting on this site. I write pages in Markdown and I use Hugo to generate the site.
+Prism allows you to choose only the languages and features you want when you download it, so you can minimize its footprint.
+Basic Markdown code fences with a language annotation do basic highlighting.
+Here is the Markdown:
+ ``` fsharp // Add some numbers let addTwo a b : a + b addTwo 1 2 | addTwo 3 | addTwo 4 // Get distinct items let myList : [ &#34;</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code Keyboard Shortcuts</title>
+      <link>/post/vs-code-shortcuts/</link>
+      <pubDate>Sat, 22 Jul 2017 15:31:32 -0700</pubDate>
+      
+      <guid>/post/vs-code-shortcuts/</guid>
+      <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl + K + S List all shortcuts   Alt + &amp;#8679; Move line up.   Alt + Shift + &amp;#8679; Copy above.   Ctrl + Shift + L Put multi-cursor at all occurences of current selections   Ctrl + C/X Copy/Cut line   Ctrl + Shift + K Delete line   Ctrl + (Shift) + Enter Insert line (above) or below   Ctrl + (K) + Shift + [/] Fold/Unfold (sub) region    Ctrl + Shift + E | Focus on file explorer</description>
+    </item>
+    
+    <item>
+      <title>Chrome Tips</title>
+      <link>/post/chrome-tips/</link>
+      <pubDate>Fri, 14 Jul 2017 21:04:57 -0700</pubDate>
+      
+      <guid>/post/chrome-tips/</guid>
+      <description>Delete cache for a site:
+Start developer tools with F12, then long-press on the reload button. You&amp;rsquo;ll get an option for &amp;ldquo;Empty Cache and Hard Reload&amp;rdquo;.
+Clear out favicons for all sites (AFAIK, there&amp;rsquo;s no way to clear them for an individual site):
+After you&amp;rsquo;ve cleared you cache.
+With Chrome closed, delete the Favicons file here:
+in:
+%localappdata% C:\Users&amp;lt;user name&amp;gt;\AppData\Local\Google\Chrome\User Data\Default
+Bu</description>
+    </item>
+    
+  </channel>
+</rss>

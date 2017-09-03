@@ -1,0 +1,51 @@
+baseurl = "/"
+publishDir = "docs"
+title = "One Problem Solved"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+
+[Author]
+    name = "Byron Gerlach"
+    bio = "Byron Gerlach is a software developer in Portland, OR."
+    avatar = "img/avatar_pipe.png"
+
+
+[Params]
+    subtitle = "All problems solved? Not quite..." # Subtitle of your site
+    description = "" # Description of your site
+    opengraph = true
+    readmore = false # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true
+    post_navigation = true
+    postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
+    #dateformat = "2006-01-02" # change the format of dates
+
+[Params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent articles" widget
+    recent_articles_num = 10 # Set the number of articles in the "Recent articles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    series = true
+    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+    social = true # Enable "Social" widget
+    social_twitter = "@byrongerlach"
+    social_linkedin = "byron-gerlach-07b98847"
+    social_github = "byrongerlach"
+    social_email = ""
+
+[mediaTypes]
+[mediaTypes."text/enriched"]
+suffix = "enr"
+[mediaTypes."text/html"]
+suffix = "asp"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
