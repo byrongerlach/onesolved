@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vs Code on One Problem Solved</title>
-    <link>/tags/vs-code/</link>
+    <link>https://byrongerlach.github.io/onesolved/tags/vs-code/</link>
     <description>Recent content in Vs Code on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Jul 2017 15:31:32 -0700</lastBuildDate>
     
-	<atom:link href="/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://byrongerlach.github.io/onesolved/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Visual Studio Code Keyboard Shortcuts</title>
-      <link>/post/vs-code-shortcuts/</link>
+      <link>https://byrongerlach.github.io/onesolved/post/vs-code-shortcuts/</link>
       <pubDate>Sat, 22 Jul 2017 15:31:32 -0700</pubDate>
       
-      <guid>/post/vs-code-shortcuts/</guid>
+      <guid>https://byrongerlach.github.io/onesolved/post/vs-code-shortcuts/</guid>
       <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl + K + S List all shortcuts   Alt + &amp;#8679; Move line up.   Alt + Shift + &amp;#8679; Copy above.   Ctrl + Shift + L Put multi-cursor at all occurences of current selections   Ctrl + C/X Copy/Cut line   Ctrl + Shift + K Delete line   Ctrl + (Shift) + Enter Insert line (above) or below   Ctrl + (K) + Shift + [/] Fold/Unfold (sub) region    Ctrl + Shift + E | Focus on file explorer</description>
     </item>
     
