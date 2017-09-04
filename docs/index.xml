@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>One Problem Solved</title>
-    <link>https://byrongerlach.github.io/onesolved/</link>
+    <link>http://onesolved.com/</link>
     <description>Recent content on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Jul 2017 15:18:15 -0700</lastBuildDate>
     
-	<atom:link href="https://byrongerlach.github.io/onesolved/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://onesolved.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Syntax Highlighting With Prismjs</title>
-      <link>https://byrongerlach.github.io/onesolved/post/prismjs/</link>
+      <link>http://onesolved.com/post/prismjs/</link>
       <pubDate>Tue, 25 Jul 2017 15:18:15 -0700</pubDate>
       
-      <guid>https://byrongerlach.github.io/onesolved/post/prismjs/</guid>
+      <guid>http://onesolved.com/post/prismjs/</guid>
       <description>I use Prismjs for code syntax highlighting on this site. I write pages in Markdown and I use Hugo to generate the site.
 Prism allows you to choose only the languages and features you want when you download it, so you can minimize its footprint.
 Basic Markdown code fences with a language annotation do basic highlighting.
@@ -26,19 +26,19 @@ Here is the Markdown:
     
     <item>
       <title>Visual Studio Code Keyboard Shortcuts</title>
-      <link>https://byrongerlach.github.io/onesolved/post/vs-code-shortcuts/</link>
+      <link>http://onesolved.com/post/vs-code-shortcuts/</link>
       <pubDate>Sat, 22 Jul 2017 15:31:32 -0700</pubDate>
       
-      <guid>https://byrongerlach.github.io/onesolved/post/vs-code-shortcuts/</guid>
+      <guid>http://onesolved.com/post/vs-code-shortcuts/</guid>
       <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl + K + S List all shortcuts   Alt + &amp;#8679; Move line up.   Alt + Shift + &amp;#8679; Copy above.   Ctrl + Shift + L Put multi-cursor at all occurences of current selections   Ctrl + C/X Copy/Cut line   Ctrl + Shift + K Delete line   Ctrl + (Shift) + Enter Insert line (above) or below   Ctrl + (K) + Shift + [/] Fold/Unfold (sub) region    Ctrl + Shift + E | Focus on file explorer</description>
     </item>
     
     <item>
       <title>Chrome Tips</title>
-      <link>https://byrongerlach.github.io/onesolved/post/chrome-tips/</link>
+      <link>http://onesolved.com/post/chrome-tips/</link>
       <pubDate>Fri, 14 Jul 2017 21:04:57 -0700</pubDate>
       
-      <guid>https://byrongerlach.github.io/onesolved/post/chrome-tips/</guid>
+      <guid>http://onesolved.com/post/chrome-tips/</guid>
       <description>Delete cache for a site:
 Start developer tools with F12, then long-press on the reload button. You&amp;rsquo;ll get an option for &amp;ldquo;Empty Cache and Hard Reload&amp;rdquo;.
 Clear out favicons for all sites (AFAIK, there&amp;rsquo;s no way to clear them for an individual site):

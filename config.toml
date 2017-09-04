@@ -1,4 +1,4 @@
-baseurl = "https://byrongerlach.github.io/onesolved/"
+baseurl = "http://onesolved.com"
 publishDir = "docs"
 title = "One Problem Solved"
 languageCode = "en-us"
