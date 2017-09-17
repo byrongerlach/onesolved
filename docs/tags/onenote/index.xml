@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Onenote on One Problem Solved</title>
+    <link>http://www.onesolved.com/tags/onenote/</link>
+    <description>Recent content in Onenote on One Problem Solved</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Sep 2017 14:40:32 -0700</lastBuildDate>
+    
+	<atom:link href="http://www.onesolved.com/tags/onenote/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OneNote Keyboard Shortcuts</title>
+      <link>http://www.onesolved.com/post/onenote_shortcuts/</link>
+      <pubDate>Sun, 17 Sep 2017 14:40:32 -0700</pubDate>
+      
+      <guid>http://www.onesolved.com/post/onenote_shortcuts/</guid>
+      <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl+G Switch notebook   Ctrl+Shift+A Select current page   Ctrl+Shift+T Move cursor to the page title   Alt + Shift + &amp;#8679; Move the selected page tab up   ALT+PgUp Go to the first page   Shift+F10 Bring up the context menu for any note, tab, or any other object that currently has focus.</description>
+    </item>
+    
+  </channel>
+</rss>
