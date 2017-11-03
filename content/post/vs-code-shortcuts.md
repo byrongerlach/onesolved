@@ -1,8 +1,8 @@
 ---
 title: "Visual Studio Code Keyboard Shortcuts"
 date: 2017-07-22T15:31:32-07:00
-tags: ["VS Code"]
-categories: ["Keyboard Shortcuts"]
+tags: ["VS Code", "keyboard shortcuts"]
+categories: ["commands and shortcuts"]
 draft: false
 ---
 
@@ -18,5 +18,11 @@ Ctrl + C/X | Copy/Cut line
 Ctrl + Shift + K | Delete line
 Ctrl + (Shift) + Enter | Insert line (above) or below
 Ctrl + (K) + Shift + [/] | Fold/Unfold (sub) region
-
 Ctrl + Shift + E | Focus on file explorer
+Ctrl + ` | Focus on Terminal
+
+## My Keybindings.json File
+```
+{ "key": "ctrl+`", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus" },
+{ "key": "ctrl+`", "command": "workbench.action.terminal.focus", "when": "!terminalFocus" }
+```

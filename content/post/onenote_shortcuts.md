@@ -1,8 +1,8 @@
 ---
 title: "OneNote Keyboard Shortcuts"
 date: 2017-09-17T14:40:32-07:00
-tags: ["OneNote"]
-categories: ["Keyboard Shortcuts"]
+tags: ["OneNote", "keyboard shortcuts"]
+categories: ["commands and shortcuts"]
 draft: false
 ---
 

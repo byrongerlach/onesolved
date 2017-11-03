@@ -1,6 +1,7 @@
 ---
 title: "Chrome Tips"
 date: 2017-07-14T21:04:57-07:00
+draft: true
 ---
 
 Delete cache for a site:  
