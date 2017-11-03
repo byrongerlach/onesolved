@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.onesolved.com/post/git-commands/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/hugo-commands/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/powershell-commands/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.onesolved.com/post/onenote_shortcuts/</loc>
     <lastmod>2017-09-17T14:40:32-07:00</lastmod>
   </url>
@@ -18,12 +33,25 @@
   </url>
   
   <url>
-    <loc>http://www.onesolved.com/post/chrome-tips/</loc>
-    <lastmod>2017-07-14T21:04:57-07:00</lastmod>
+    <loc>http://www.onesolved.com/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.onesolved.com/categories/</loc>
+    <loc>http://www.onesolved.com/tags/commands/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/categories/commands-and-shortcuts/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/tags/git/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -34,20 +62,26 @@
   </url>
   
   <url>
+    <loc>http://www.onesolved.com/tags/hugo/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.onesolved.com/tags/javascript/</loc>
     <lastmod>2017-07-25T15:18:15-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.onesolved.com/categories/keyboard-shortcuts/</loc>
+    <loc>http://www.onesolved.com/tags/keyboard-shortcuts/</loc>
     <lastmod>2017-09-17T14:40:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.onesolved.com/</loc>
-    <lastmod>2017-09-17T14:40:32-07:00</lastmod>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,7 +93,13 @@
   
   <url>
     <loc>http://www.onesolved.com/post/</loc>
-    <lastmod>2017-09-17T14:40:32-07:00</lastmod>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/tags/powershell/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -70,13 +110,13 @@
   
   <url>
     <loc>http://www.onesolved.com/categories/static-site-generation/</loc>
-    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.onesolved.com/tags/</loc>
-    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

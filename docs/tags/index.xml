@@ -6,10 +6,28 @@
     <description>Recent content in Tags on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jul 2017 15:18:15 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 03 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.onesolved.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Commands</title>
+      <link>http://www.onesolved.com/tags/commands/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/commands/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://www.onesolved.com/tags/git/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/git/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Html</title>
@@ -17,6 +35,15 @@
       <pubDate>Tue, 25 Jul 2017 15:18:15 -0700</pubDate>
       
       <guid>http://www.onesolved.com/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://www.onesolved.com/tags/hugo/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/hugo/</guid>
       <description></description>
     </item>
     
@@ -30,11 +57,29 @@
     </item>
     
     <item>
+      <title>Keyboard Shortcuts</title>
+      <link>http://www.onesolved.com/tags/keyboard-shortcuts/</link>
+      <pubDate>Sun, 17 Sep 2017 14:40:32 -0700</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/keyboard-shortcuts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Onenote</title>
       <link>http://www.onesolved.com/tags/onenote/</link>
       <pubDate>Sun, 17 Sep 2017 14:40:32 -0700</pubDate>
       
       <guid>http://www.onesolved.com/tags/onenote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Powershell</title>
+      <link>http://www.onesolved.com/tags/powershell/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/powershell/</guid>
       <description></description>
     </item>
     

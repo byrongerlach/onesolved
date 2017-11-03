@@ -17,7 +17,7 @@
       <pubDate>Sat, 22 Jul 2017 15:31:32 -0700</pubDate>
       
       <guid>http://www.onesolved.com/post/vs-code-shortcuts/</guid>
-      <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl + K + S List all shortcuts   Alt + &amp;#8679; Move line up.   Alt + Shift + &amp;#8679; Copy above.   Ctrl + Shift + L Put multi-cursor at all occurences of current selections   Ctrl + C/X Copy/Cut line   Ctrl + Shift + K Delete line   Ctrl + (Shift) + Enter Insert line (above) or below   Ctrl + (K) + Shift + [/] Fold/Unfold (sub) region    Ctrl + Shift + E | Focus on file explorer</description>
+      <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl + K + S List all shortcuts   Alt + &amp;#8679; Move line up.   Alt + Shift + &amp;#8679; Copy above.   Ctrl + Shift + L Put multi-cursor at all occurences of current selections   Ctrl + C/X Copy/Cut line   Ctrl + Shift + K Delete line   Ctrl + (Shift) + Enter Insert line (above) or below   Ctrl + (K) + Shift + [/] Fold/Unfold (sub) region   Ctrl + Shift + E Focus on file explorer   Ctrl + ` Focus on Terminal    My Keybindings.</description>
     </item>
     
   </channel>

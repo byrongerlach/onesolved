@@ -13,4 +13,5 @@ Command | Description
 hugo new post/my-post.md | Create a new post
 hugo server | Start hugo server
 hugo server -D | Start hugo server and include draft posts
+hugo | Build site for publishing
 
