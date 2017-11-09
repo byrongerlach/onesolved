@@ -48,3 +48,6 @@ suffix = "asp"
   tag = "tags"
   category = "categories"
   series = "series"
+
+metaDataFormat = "json"
+archetypeDir = "archetypes"

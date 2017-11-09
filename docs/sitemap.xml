@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.onesolved.com/post/hugo-setup/</loc>
+    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.onesolved.com/post/git-commands/</loc>
     <lastmod>2017-11-03T00:00:00+00:00</lastmod>
   </url>
@@ -30,6 +35,11 @@
   <url>
     <loc>http://www.onesolved.com/post/vs-code-shortcuts/</loc>
     <lastmod>2017-07-22T15:31:32-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/archetypes/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -63,13 +73,18 @@
   
   <url>
     <loc>http://www.onesolved.com/tags/hugo/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.onesolved.com/tags/javascript/</loc>
     <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/json/</loc>
     <priority>0</priority>
   </url>
   
@@ -81,7 +96,7 @@
   
   <url>
     <loc>http://www.onesolved.com/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -93,7 +108,7 @@
   
   <url>
     <loc>http://www.onesolved.com/post/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -110,7 +125,7 @@
   
   <url>
     <loc>http://www.onesolved.com/categories/static-site-generation/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

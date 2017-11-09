@@ -6,10 +6,22 @@
     <description>Recent content in Hugo on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.onesolved.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo Setup</title>
+      <link>http://www.onesolved.com/post/hugo-setup/</link>
+      <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.onesolved.com/post/hugo-setup/</guid>
+      <description>My Hugo Setup Here&amp;rsquo;s how I set up this site using the Hugo static site generator.
+Configuration for Hosting on Github Since I host my site on Github, I followed the instructions on the Hugo site for hosting on Github
+I set my config.toml file to post to the &amp;ldquo;docs&amp;rdquo; dir in my github repo:
+baseurl = &amp;quot;http://www.onesolved.com&amp;quot; publishDir = &amp;quot;docs&amp;quot; title = &amp;quot;One Problem Solved&amp;quot;  Default Post Template (Archtype) When you add a post by running &amp;ldquo;hugo new post/new_post.</description>
+    </item>
     
     <item>
       <title>Hugo Commands</title>
