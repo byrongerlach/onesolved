@@ -6,10 +6,24 @@
     <description>Recent content on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.onesolved.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Benchmark DotNet</title>
+      <link>http://www.onesolved.com/post/benchmark_dotnet/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.onesolved.com/post/benchmark_dotnet/</guid>
+      <description>Method-level Benchmarking Using BenchmarkDotNet Here is an example of method-level benchmarking using BenchmarkDotNet.
+The BenchmarkDotNet site provides detailed instructions for setup.
+The following example shows a basic setup to benchmark two C# methods.
+Creating a Console Application for Benchmarking First, create a console application and install the BenchmarkDotNet Nuget package:
+PM&amp;gt; Install-Package BenchmarkDotNet  The following example benchmarks two different methods of assigning new values based on comparisons:
+using System; using BenchmarkDotNet.</description>
+    </item>
     
     <item>
       <title>Hugo Setup</title>
