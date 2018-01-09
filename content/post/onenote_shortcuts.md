@@ -14,7 +14,8 @@ Ctrl+G | Switch notebook
 Ctrl+Shift+A | Select current page
 Ctrl+Shift+T | Move cursor to the page title
 Alt + Shift + &#8679; | Move the selected page tab up
-ALT+PgUp | Go to the first page
+Alt+PgUp | Go to the first page
+Ctrl+PgUp/PgDown | Move to next page
 Shift+F10 | Bring up the context menu for any note, tab, or any other object that currently has focus.
 Ctrl+Shift+W | Execute the action suggested on the Information Bar if it appears at the top of a page.
 Ctrl+Del | Delete one word to the right.

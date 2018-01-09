@@ -20,6 +20,7 @@ Ctrl + (Shift) + Enter | Insert line (above) or below
 Ctrl + (K) + Shift + [/] | Fold/Unfold (sub) region
 Ctrl + Shift + E | Focus on file explorer
 Ctrl + ` | Focus on Terminal
+Alt + z | Toggle word-wrap
 
 ## My Keybindings.json File
 ```

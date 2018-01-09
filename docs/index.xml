@@ -26,6 +26,15 @@ using System; using BenchmarkDotNet.</description>
     </item>
     
     <item>
+      <title>Dotnet Core Quickstart</title>
+      <link>http://www.onesolved.com/post/dotnet_core_quickstart/</link>
+      <pubDate>Wed, 08 Nov 2017 21:43:55 -0800</pubDate>
+      
+      <guid>http://www.onesolved.com/post/dotnet_core_quickstart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo Setup</title>
       <link>http://www.onesolved.com/post/hugo-setup/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
@@ -87,12 +96,75 @@ Here is the Markdown:
     </item>
     
     <item>
+      <title>.NET Build Configuration With Cakebuild</title>
+      <link>http://www.onesolved.com/post/cakebuild-configuration/</link>
+      <pubDate>Sat, 22 Jul 2017 21:04:57 -0700</pubDate>
+      
+      <guid>http://www.onesolved.com/post/cakebuild-configuration/</guid>
+      <description> Describe XML Poke Describe XPath  </description>
+    </item>
+    
+    <item>
+      <title>Vs Shortcuts</title>
+      <link>http://www.onesolved.com/post/vs-shortcuts/</link>
+      <pubDate>Sat, 22 Jul 2017 20:07:21 -0700</pubDate>
+      
+      <guid>http://www.onesolved.com/post/vs-shortcuts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Visual Studio Code Keyboard Shortcuts</title>
       <link>http://www.onesolved.com/post/vs-code-shortcuts/</link>
       <pubDate>Sat, 22 Jul 2017 15:31:32 -0700</pubDate>
       
       <guid>http://www.onesolved.com/post/vs-code-shortcuts/</guid>
       <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl + K + S List all shortcuts   Alt + &amp;#8679; Move line up.   Alt + Shift + &amp;#8679; Copy above.   Ctrl + Shift + L Put multi-cursor at all occurences of current selections   Ctrl + C/X Copy/Cut line   Ctrl + Shift + K Delete line   Ctrl + (Shift) + Enter Insert line (above) or below   Ctrl + (K) + Shift + [/] Fold/Unfold (sub) region   Ctrl + Shift + E Focus on file explorer   Ctrl + ` Focus on Terminal    My Keybindings.</description>
+    </item>
+    
+    <item>
+      <title>Chrome Tips</title>
+      <link>http://www.onesolved.com/post/chrome-tips/</link>
+      <pubDate>Fri, 14 Jul 2017 21:04:57 -0700</pubDate>
+      
+      <guid>http://www.onesolved.com/post/chrome-tips/</guid>
+      <description>Delete cache for a site:
+Start developer tools with F12, then long-press on the reload button. You&amp;rsquo;ll get an option for &amp;ldquo;Empty Cache and Hard Reload&amp;rdquo;.
+Clear out favicons for all sites (AFAIK, there&amp;rsquo;s no way to clear them for an individual site):
+After you&amp;rsquo;ve cleared you cache.
+With Chrome closed, delete the Favicons file here:
+in:
+%localappdata% C:\Users&amp;lt;user name&amp;gt;\AppData\Local\Google\Chrome\User Data\Default
+Bu</description>
+    </item>
+    
+    <item>
+      <title>First Build Flow With Cakebuild</title>
+      <link>http://www.onesolved.com/post/first-cakebuild/</link>
+      <pubDate>Fri, 14 Jul 2017 21:04:57 -0700</pubDate>
+      
+      <guid>http://www.onesolved.com/post/first-cakebuild/</guid>
+      <description>Problem: Development Builds Took Too Much Work to Configure
+For a .NET application I work on, I wanted to have a more agile and faster development build and deployment process. Cakebuild had been on my radar, but seeing (person&amp;rsquo;s) lighting talk at .NET Fringe 2017 on Cakebuild inspired me to give it a try.
+Cakebuild Cakebuild is a cross-platform open source build system, driven by build scripts which use a C# domain-specific language.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Cheatsheet</title>
+      <link>http://www.onesolved.com/post/markdown-cheatsheet/</link>
+      <pubDate>Wed, 05 Jul 2017 12:00:15 -0700</pubDate>
+      
+      <guid>http://www.onesolved.com/post/markdown-cheatsheet/</guid>
+      <description>Blackfriday syntax used by Hugo: https://github.com/russross/blackfriday</description>
+    </item>
+    
+    <item>
+      <title>First Doc</title>
+      <link>http://www.onesolved.com/post/doc/first-doc/</link>
+      <pubDate>Sat, 24 Jun 2017 22:57:02 -0700</pubDate>
+      
+      <guid>http://www.onesolved.com/post/doc/first-doc/</guid>
+      <description></description>
     </item>
     
   </channel>
