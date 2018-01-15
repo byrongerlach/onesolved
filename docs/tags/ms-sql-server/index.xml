@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ms Sql Server on One Problem Solved</title>
+    <link>http://www.onesolved.com/tags/ms-sql-server/</link>
+    <description>Recent content in Ms Sql Server on One Problem Solved</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.onesolved.com/tags/ms-sql-server/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MS SQL Server Tips</title>
+      <link>http://www.onesolved.com/post/ms_sql_tips/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.onesolved.com/post/ms_sql_tips/</guid>
+      <description>Get DB Table Size The following will list the size of each table:
+SELECT s.Name AS SchemaName, t.NAME AS TableName, p.rows AS RowCounts, SUM(a.total_pages) * 8 AS TotalSpaceKB, SUM(a.used_pages) * 8 AS UsedSpaceKB, (SUM(a.total_pages) - SUM(a.used_pages)) * 8 AS UnusedSpaceKB FROM sys.tables t INNER JOIN sys.schemas s ON s.schema_id = t.schema_id INNER JOIN sys.indexes i ON t.OBJECT_ID = i.object_id INNER JOIN sys.partitions p ON i.object_id = p.OBJECT_ID AND i.index_id = p.</description>
+    </item>
+    
+  </channel>
+</rss>

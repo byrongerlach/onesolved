@@ -21,38 +21,11 @@
     </item>
     
     <item>
-      <title>Cakebuild</title>
-      <link>http://www.onesolved.com/tags/cakebuild/</link>
-      <pubDate>Sat, 22 Jul 2017 21:04:57 -0700</pubDate>
-      
-      <guid>http://www.onesolved.com/tags/cakebuild/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Commands</title>
       <link>http://www.onesolved.com/tags/commands/</link>
       <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>http://www.onesolved.com/tags/commands/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Csharp</title>
-      <link>http://www.onesolved.com/tags/csharp/</link>
-      <pubDate>Sat, 22 Jul 2017 21:04:57 -0700</pubDate>
-      
-      <guid>http://www.onesolved.com/tags/csharp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dotnet</title>
-      <link>http://www.onesolved.com/tags/dotnet/</link>
-      <pubDate>Sat, 22 Jul 2017 21:04:57 -0700</pubDate>
-      
-      <guid>http://www.onesolved.com/tags/dotnet/</guid>
       <description></description>
     </item>
     
@@ -95,9 +68,18 @@
     <item>
       <title>Keyboard Shortcuts</title>
       <link>http://www.onesolved.com/tags/keyboard-shortcuts/</link>
-      <pubDate>Sun, 17 Sep 2017 14:40:32 -0700</pubDate>
+      <pubDate>Tue, 09 Jan 2018 10:37:46 -0800</pubDate>
       
       <guid>http://www.onesolved.com/tags/keyboard-shortcuts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ms Sql Server</title>
+      <link>http://www.onesolved.com/tags/ms-sql-server/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/ms-sql-server/</guid>
       <description></description>
     </item>
     
@@ -120,29 +102,38 @@
     </item>
     
     <item>
+      <title>Resharper</title>
+      <link>http://www.onesolved.com/tags/resharper/</link>
+      <pubDate>Tue, 09 Jan 2018 10:37:46 -0800</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/resharper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>http://www.onesolved.com/tags/vim/</link>
+      <pubDate>Tue, 09 Jan 2018 10:37:46 -0800</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio</title>
+      <link>http://www.onesolved.com/tags/visual-studio/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/visual-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Vs Code</title>
       <link>http://www.onesolved.com/tags/vs-code/</link>
       <pubDate>Sat, 22 Jul 2017 15:31:32 -0700</pubDate>
       
       <guid>http://www.onesolved.com/tags/vs-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xml</title>
-      <link>http://www.onesolved.com/tags/xml/</link>
-      <pubDate>Sat, 22 Jul 2017 21:04:57 -0700</pubDate>
-      
-      <guid>http://www.onesolved.com/tags/xml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xpath</title>
-      <link>http://www.onesolved.com/tags/xpath/</link>
-      <pubDate>Sat, 22 Jul 2017 21:04:57 -0700</pubDate>
-      
-      <guid>http://www.onesolved.com/tags/xpath/</guid>
       <description></description>
     </item>
     

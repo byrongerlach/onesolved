@@ -19,4 +19,3 @@ With Chrome closed, delete the Favicons file here:
 %localappdata%
 C:\Users\<user name>\AppData\Local\Google\Chrome\User Data\Default\
 
-Bu

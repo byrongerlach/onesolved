@@ -9,6 +9,11 @@ Hugo uses [Blackfriday][https://github.com/russross/blackfriday) syntax.
 
 [General Markdown Reference](https://daringfireball.net/projects/markdown/)
 
+ 
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
+
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 
 
 # My Commonly-Used Markdown
