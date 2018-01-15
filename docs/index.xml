@@ -45,7 +45,7 @@ SELECT s.Name AS SchemaName, t.NAME AS TableName, p.rows AS RowCounts, SUM(a.tot
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>http://www.onesolved.com/post/vs-shortcuts/</guid>
-      <description>Visual Studio Shortcuts Outlines    Shortcut Description     CTRL + M + O Collapse to definitions   Ctrl + M, Ctrl + A Collapse all outlining   Ctrl + M, Ctrl + S Collapse current region   CTRL + M + L Expand all   CTRL + M + P Expand all and disable outlining   CTRL + M + M Collapse/expand the current section    Windows    Shortcut Description     Ctrl+\, E View.</description>
+      <description>Outlines    Shortcut Description     CTRL + M + O Collapse to definitions   Ctrl + M, Ctrl + A Collapse all outlining   Ctrl + M, Ctrl + S Collapse current region   CTRL + M + L Expand all   CTRL + M + P Expand all and disable outlining   CTRL + M + M Collapse/expand the current section    Windows    Shortcut Description     Ctrl+\, E View.</description>
     </item>
     
     <item>

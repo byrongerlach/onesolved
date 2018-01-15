@@ -6,8 +6,6 @@ categories: ["commands and shortcuts"]
 draft: false
 ---
 
-# Visual Studio Shortcuts
-
 ## Outlines
 
  Shortcut | Description
