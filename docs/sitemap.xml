@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.onesolved.com/post/ms_sql_tips/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/resharper_mnemonic/</loc>
+    <lastmod>2018-01-09T10:37:46-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/vim_shortcuts/</loc>
+    <lastmod>2018-01-09T10:37:46-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/vs-shortcuts/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.onesolved.com/post/benchmark_dotnet/</loc>
     <lastmod>2017-11-12T00:00:00+00:00</lastmod>
   </url>
@@ -43,6 +63,54 @@
   </url>
   
   <url>
+    <loc>http://www.onesolved.com/post/app_config/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/chsarp_locks/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/csharp_comparisons/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/csharp_reference_passing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/deleting_unneccessary_vs_build_files/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/ews_api/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/mlo_shortcuts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/remote_desktop_shortcuts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/reshaper_zensharp_shortcuts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/several_benchmarks/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/unit_testing_with_ava/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/post/visual_studio_templates/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.onesolved.com/tags/analytics/</loc>
     <lastmod>2017-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -66,7 +134,7 @@
   
   <url>
     <loc>http://www.onesolved.com/categories/commands-and-shortcuts/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -101,13 +169,19 @@
   
   <url>
     <loc>http://www.onesolved.com/tags/keyboard-shortcuts/</loc>
-    <lastmod>2017-09-17T14:40:32-07:00</lastmod>
+    <lastmod>2018-01-09T10:37:46-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/tags/ms-sql-server/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.onesolved.com/</loc>
-    <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -119,13 +193,19 @@
   
   <url>
     <loc>http://www.onesolved.com/post/</loc>
-    <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.onesolved.com/tags/powershell/</loc>
     <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/tags/resharper/</loc>
+    <lastmod>2018-01-09T10:37:46-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -143,6 +223,18 @@
   <url>
     <loc>http://www.onesolved.com/tags/</loc>
     <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/tags/vim/</loc>
+    <lastmod>2018-01-09T10:37:46-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.onesolved.com/tags/visual-studio/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

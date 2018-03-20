@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Build Systems on One Problem Solved</title>
+    <link>http://www.onesolved.com/categories/build-systems/</link>
+    <description>Recent content in Build Systems on One Problem Solved</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Jul 2017 21:04:57 -0700</lastBuildDate>
+    
+	<atom:link href="http://www.onesolved.com/categories/build-systems/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.NET Build Configuration With Cakebuild</title>
+      <link>http://www.onesolved.com/post/cakebuild-configuration/</link>
+      <pubDate>Sat, 22 Jul 2017 21:04:57 -0700</pubDate>
+      
+      <guid>http://www.onesolved.com/post/cakebuild-configuration/</guid>
+      <description> Describe XML Poke Describe XPath  </description>
+    </item>
+    
+    <item>
+      <title>First Build Flow With Cakebuild</title>
+      <link>http://www.onesolved.com/post/first-cakebuild/</link>
+      <pubDate>Fri, 14 Jul 2017 21:04:57 -0700</pubDate>
+      
+      <guid>http://www.onesolved.com/post/first-cakebuild/</guid>
+      <description>Problem: Development Builds Took Too Much Work to Configure
+For a .NET application I work on, I wanted to have a more agile and faster development build and deployment process. Cakebuild had been on my radar, but seeing (person&amp;rsquo;s) lighting talk at .NET Fringe 2017 on Cakebuild inspired me to give it a try.
+Cakebuild Cakebuild is a cross-platform open source build system, driven by build scripts which use a C# domain-specific language.</description>
+    </item>
+    
+  </channel>
+</rss>
