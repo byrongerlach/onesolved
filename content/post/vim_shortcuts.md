@@ -69,6 +69,7 @@ d'X | Delete to mark X
 '1-9 | Go to the line you were at when you exited vim the Nth time before
 ''\``| Go to the beginning/column of the line where you last jumped from
 '.\`.| Go to the beginning/column of the last change
+CTRL+o/i | Go back/forward in the jump list
 
 ### Windows
 Shortcut | Description
@@ -125,6 +126,8 @@ s/./&-/g | Add a dash after every character in the line
 @: | Execute last command
 ; | Execute last movement (some, like fc) 
 ; | Repeat latest f, t, F or T [count] times. See |cpo-;|
+Ctrl+r/Ctrl+u | Delete to start of previous word/beginning of the line (insert mode)
+
 ### Search
 Shortcut | Description
 ---------|------------
@@ -150,7 +153,10 @@ Shortcut | Description
 ---------|------------
 o | Move the other end of the selection
 
-### Visual Mode
+### Command-line Mode
 Shortcut | Description
 ---------|------------
-o | Move the other end of the selection
+Ctrl+d | Autocomplete
+Ctrl+r, Ctrl+w\Ctrl+a | Insert the word\WORD that is under the cursor
+q: or q/ | Open command-line window with Ex commands or search history 
+Ctrl+f | Switch to command-line window when in command-line mode
