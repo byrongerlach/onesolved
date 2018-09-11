@@ -1,3 +1,24 @@
+---
+title: "Resharper Zensharp Shortcuts"
+date: 2018-09-01T10:46:53-08:00
+tags: ["Resharper", "keyboard shortcuts"]
+categories: ["commands and shortcuts"]
+draft: false
+---
+
+# Resharper Zensharp Shortcuts
+
+## CSharpTypes 
+
+Shortcut | Description
+---------|------------
+ppt | public property\<T\>
+pM~s| public static Method IEnumerable<string>
+Mt~ | public static static ienumerable 
+
+## Zensharp Template Examples
+
+```
 // C# templates
 // Sample file
 space ::= " "
@@ -100,3 +121,5 @@ scope "InCSharpStatement" {
     | "if ("=ifr identifier " == null) return;"
 	| "Log."=l (Fatal=f | Info=i | Error=e | Trace=t | Debug=d) "(""" cursor """);"
 }
+
+```

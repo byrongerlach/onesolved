@@ -7,15 +7,15 @@
 
 <meta name="generator" content="Hugo 0.32.4" />
 <meta property="og:title" content="Vim Shortcuts" />
-<meta property="og:description" content="My Commonly-Used Shortcuts Folding in Vim    Shortcut Description     zf#j  creates a fold from the cursor down # lines.   zf/string  creates a fold from the cursor to string .   zj  moves the cursor to the next fold.   zk  moves the cursor to the previous fold.   zo  opens a fold at the cursor." />
+<meta property="og:description" content="My Commonly-Used Shortcuts Folding in Vim    Shortcut Description     zf#j creates a fold from the cursor down # lines   zf/string creates a fold from the cursor to string   zj moves the cursor to the next fold   zk moves the cursor to the previous fold   zo opens a fold at the cursor   zO opens all folds at the cursor   zm increases the foldlevel by one   zM closes all open folds   zr decreases the foldlevel by one   zR decreases the foldlevel to zero &ndash; all folds will be open   zd deletes the fold at the cursor   zE deletes all folds   [z move to start of open fold   ]z move to end of open fold   zO opens all folds at the cursor    Configuration    Shortcut Description     :vimfiles Show the loaded vim files (vimrc, etc." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.onesolved.com/post/vim_shortcuts/" />
 
 
 
-<meta property="article:published_time" content="2018-01-09T10:37:46-08:00"/>
+<meta property="article:published_time" content="2018-07-16T10:37:46-08:00"/>
 
-<meta property="article:modified_time" content="2018-01-09T10:37:46-08:00"/>
+<meta property="article:modified_time" content="2018-07-16T10:37:46-08:00"/>
 
 
 
@@ -59,7 +59,7 @@
 			<h1 class="post__title">Vim Shortcuts</h1>
 			<p class="post__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-				<time class="post__meta-date" datetime="2018-01-09T10:37:46">January 09, 2018</time>
+				<time class="post__meta-date" datetime="2018-07-16T10:37:46">July 16, 2018</time>
 				<span class="post__meta-categories meta-categories">
 					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
 					<a class="meta-categories__link" href="/categories/commands-and-shortcuts" rel="category">commands and shortcuts</a></span>
@@ -82,73 +82,662 @@
 
 <tbody>
 <tr>
-<td>zf#j </td>
-<td>creates a fold from the cursor down # lines.</td>
+<td>zf#j</td>
+<td>creates a fold from the cursor down # lines</td>
 </tr>
 
 <tr>
-<td>zf/string </td>
-<td>creates a fold from the cursor to string .</td>
+<td>zf/string</td>
+<td>creates a fold from the cursor to string</td>
 </tr>
 
 <tr>
-<td>zj </td>
-<td>moves the cursor to the next fold.</td>
+<td>zj</td>
+<td>moves the cursor to the next fold</td>
 </tr>
 
 <tr>
-<td>zk </td>
-<td>moves the cursor to the previous fold.</td>
+<td>zk</td>
+<td>moves the cursor to the previous fold</td>
 </tr>
 
 <tr>
-<td>zo </td>
-<td>opens a fold at the cursor.</td>
+<td>zo</td>
+<td>opens a fold at the cursor</td>
 </tr>
 
 <tr>
-<td>zO </td>
-<td>opens all folds at the cursor.</td>
+<td>zO</td>
+<td>opens all folds at the cursor</td>
 </tr>
 
 <tr>
-<td>zm </td>
-<td>increases the foldlevel by one.</td>
+<td>zm</td>
+<td>increases the foldlevel by one</td>
 </tr>
 
 <tr>
-<td>zM </td>
-<td>closes all open folds.</td>
+<td>zM</td>
+<td>closes all open folds</td>
 </tr>
 
 <tr>
-<td>zr </td>
-<td>decreases the foldlevel by one.</td>
+<td>zr</td>
+<td>decreases the foldlevel by one</td>
 </tr>
 
 <tr>
-<td>zR </td>
-<td>decreases the foldlevel to zero &ndash; all folds will be open.</td>
+<td>zR</td>
+<td>decreases the foldlevel to zero &ndash; all folds will be open</td>
 </tr>
 
 <tr>
-<td>zd </td>
-<td>deletes the fold at the cursor.</td>
+<td>zd</td>
+<td>deletes the fold at the cursor</td>
 </tr>
 
 <tr>
-<td>zE </td>
-<td>deletes all folds.</td>
+<td>zE</td>
+<td>deletes all folds</td>
 </tr>
 
 <tr>
 <td>[z</td>
-<td> move to start of open fold.</td>
+<td>move to start of open fold</td>
 </tr>
 
 <tr>
-<td>]z </td>
-<td>move to end of open fold.</td>
+<td>]z</td>
+<td>move to end of open fold</td>
+</tr>
+
+<tr>
+<td>zO</td>
+<td>opens all folds at the cursor</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="configuration">Configuration</h3>
+
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>:vimfiles</td>
+<td>Show the loaded vim files (vimrc, etc.).</td>
+</tr>
+
+<tr>
+<td>:so $MYVIMRC</td>
+<td>Reload the vimrc</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="navigation">Navigation</h3>
+
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>[{</td>
+<td>Jump to beginning of code block</td>
+</tr>
+
+<tr>
+<td>gm</td>
+<td>Jump to middle of the screen</td>
+</tr>
+
+<tr>
+<td>w</td>
+<td>N words foward</td>
+</tr>
+
+<tr>
+<td>W</td>
+<td>N words forward (blank-separated)</td>
+</tr>
+
+<tr>
+<td>{/}</td>
+<td>N paragraphs forward/backward</td>
+</tr>
+
+<tr>
+<td>%</td>
+<td>Goto matching brace</td>
+</tr>
+
+<tr>
+<td>g<movement></td>
+<td>Move across displayed lines when wrapped</td>
+</tr>
+
+<tr>
+<td>CTRL+^</td>
+<td>Edit alternate file</td>
+</tr>
+
+<tr>
+<td>e</td>
+<td>End of word</td>
+</tr>
+
+<tr>
+<td>0</td>
+<td>First character of line</td>
+</tr>
+
+<tr>
+<td>^</td>
+<td>First non-blank character of line</td>
+</tr>
+
+<tr>
+<td>0</td>
+<td>Last character of line</td>
+</tr>
+
+<tr>
+<td>gm</td>
+<td>Middle of line</td>
+</tr>
+
+<tr>
+<td>g0/^/$</td>
+<td>Beginning/non-blank beginning/end of a wrapped line</td>
+</tr>
+
+<tr>
+<td>f/FX</td>
+<td>Jump to next, previous character X in a line</td>
+</tr>
+
+<tr>
+<td>;</td>
+<td>Repeat last jump</td>
+</tr>
+
+<tr>
+<td>,</td>
+<td>Repeat reverse of last jump</td>
+</tr>
+
+<tr>
+<td>M/H/L</td>
+<td>Jump to middle/top/bottom of the screen</td>
+</tr>
+
+<tr>
+<td>CTRL+f/b</td>
+<td>Jump forward/backward one screen</td>
+</tr>
+
+<tr>
+<td>CTRL+u/d</td>
+<td>Jump forward/backward <sup>1</sup>&frasl;<sub>4</sub> screen</td>
+</tr>
+
+<tr>
+<td>CTRL+e/y</td>
+<td>Scroll up/down one line</td>
+</tr>
+
+<tr>
+<td>zt</td>
+<td>Scroll line to top of screen</td>
+</tr>
+
+<tr>
+<td>Ng/G</td>
+<td>Go to line N</td>
+</tr>
+
+<tr>
+<td>gg/G</td>
+<td>First/last line of file</td>
+</tr>
+
+<tr>
+<td>m/M</td>
+<td>Make a file or global mark</td>
+</tr>
+
+<tr>
+<td>&lsquo;X</td>
+<td>Go to beginning of line with mark X</td>
+</tr>
+
+<tr>
+<td>`X</td>
+<td>Go to line and column of mark X</td>
+</tr>
+
+<tr>
+<td>d&rsquo;X</td>
+<td>Delete to mark X</td>
+</tr>
+
+<tr>
+<td>&lsquo;0</td>
+<td>Go to the line you were at when you last exited vim</td>
+</tr>
+
+<tr>
+<td>&lsquo;1-9</td>
+<td>Go to the line you were at when you exited vim the Nth time before</td>
+</tr>
+
+<tr>
+<td>&ldquo;``</td>
+<td>Go to the beginning/column of the line where you last jumped from</td>
+</tr>
+
+<tr>
+<td>&rsquo;.`.</td>
+<td>Go to the beginning/column of the last change</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="windows">Windows</h3>
+
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>CTRL-w + s/v</td>
+<td>Horizontal/Vertical split</td>
+</tr>
+
+<tr>
+<td>CTRL-w + j/k</td>
+<td>Focus up/down to different windows</td>
+</tr>
+
+<tr>
+<td>CTRL-w + J/K</td>
+<td>Move buffer up/down to different windows</td>
+</tr>
+
+<tr>
+<td>CTRL-w + w</td>
+<td>Cycle to a window counter-clockwise</td>
+</tr>
+
+<tr>
+<td>CTRL-w + p</td>
+<td>Focus previous window</td>
+</tr>
+
+<tr>
+<td>CTRL-w + o</td>
+<td>Make the current window the only one</td>
+</tr>
+
+<tr>
+<td>CTRL-w + r</td>
+<td>Rotate windows clockwise</td>
+</tr>
+
+<tr>
+<td>CTRL-w + x</td>
+<td>Exchange window with the next one</td>
+</tr>
+
+<tr>
+<td>CTRL-w + t</td>
+<td>Move window to new tab</td>
+</tr>
+
+<tr>
+<td>CTRL-w + c</td>
+<td>Close window</td>
+</tr>
+
+<tr>
+<td>CTRL-w + &lt;</td>
+<td>Increase vertical window size</td>
+</tr>
+
+<tr>
+<td>CTRL-w + &gt;</td>
+<td>Decrease vertical window size</td>
+</tr>
+
+<tr>
+<td>CTRL-w + -</td>
+<td>Decrease horizontal window size</td>
+</tr>
+
+<tr>
+<td>CTRL-w + +</td>
+<td>Increase horizontal window size</td>
+</tr>
+
+<tr>
+<td>CTRL-w + =</td>
+<td>Make windows equal in size</td>
+</tr>
+
+<tr>
+<td>80 CTRL-w + |</td>
+<td>Make window 80 columns</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="buffers">Buffers</h3>
+
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>ls</td>
+<td>List buffers</td>
+</tr>
+
+<tr>
+<td>b1</td>
+<td>Goto first buffer</td>
+</tr>
+
+<tr>
+<td>bn/p</td>
+<td>Goto next/previous buffer</td>
+</tr>
+
+<tr>
+<td>bf/l</td>
+<td>Goto first/last buffer</td>
+</tr>
+
+<tr>
+<td>bd</td>
+<td>Delete buffer</td>
+</tr>
+
+<tr>
+<td>ba</td>
+<td>Open window for every buffer</td>
+</tr>
+
+<tr>
+<td>CTRL+^</td>
+<td>Goto last file you edited</td>
+</tr>
+
+<tr>
+<td>\be</td>
+<td>Buffer explorer</td>
+</tr>
+
+<tr>
+<td>d</td>
+<td>Delete buffer (buffer explorer)</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="editing">Editing</h3>
+
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>i/I</td>
+<td>Insert mode at current position/beginning of the line</td>
+</tr>
+
+<tr>
+<td>a/A</td>
+<td>Insert mode at current position+1/end of the line</td>
+</tr>
+
+<tr>
+<td>o/O</td>
+<td>Open new line below/above current line</td>
+</tr>
+
+<tr>
+<td>r</td>
+<td>Replace character and return to insert mode</td>
+</tr>
+
+<tr>
+<td>R</td>
+<td>Replace current text, and press backspace to restore</td>
+</tr>
+
+<tr>
+<td>c3w</td>
+<td>Change 3 words. Changed text is on the unnamed register</td>
+</tr>
+
+<tr>
+<td>x</td>
+<td>Delete current character</td>
+</tr>
+
+<tr>
+<td>dd</td>
+<td>Delete line</td>
+</tr>
+
+<tr>
+<td>J</td>
+<td>Join line</td>
+</tr>
+
+<tr>
+<td>gJ</td>
+<td>Join line without adding space</td>
+</tr>
+
+<tr>
+<td>&lt;&lt;/&gt;&gt;</td>
+<td>Indent/outdent</td>
+</tr>
+
+<tr>
+<td>Ctrl+t/d</td>
+<td>Indent/outdent in insert mode</td>
+</tr>
+
+<tr>
+<td>(/)/{/}</td>
+<td>Move back/forward one sentence/paragraph</td>
+</tr>
+
+<tr>
+<td>%</td>
+<td>Go to matching brace or control structure depending on the language</td>
+</tr>
+
+<tr>
+<td>vit</td>
+<td>Visually select the contents of a tag. &lsquo;o&rsquo; will switch the insertion point from the beginning/end</td>
+</tr>
+
+<tr>
+<td>s/./&amp;-/g</td>
+<td>Add a dash after every character in the line</td>
+</tr>
+
+<tr>
+<td>@:</td>
+<td>Execute last command</td>
+</tr>
+
+<tr>
+<td>;</td>
+<td>Execute last movement (some, like fc)</td>
+</tr>
+
+<tr>
+<td>;</td>
+<td>Repeat latest f, t, F or T [count] times. See</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="search">Search</h3>
+
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>g#/#/N/n/<em>/g</em></td>
+<td>Matches: prev. partial/prev./next/next current word/next partial match</td>
+</tr>
+
+<tr>
+<td>y?X</td>
+<td>Yank text until previous occurence of subject X</td>
+</tr>
+
+<tr>
+<td>:[range]s[ubstitute]/{pattern}/{string}/[flags] [count]</td>
+<td>Search over range: c (confirm or skip each match), i/I (ignore case, case sensitive), n (show number of matches), p (print matching lines)</td>
+</tr>
+
+<tr>
+<td>:[range]g[lobal]/{pattern}/cmd</td>
+<td>Execute command over range: # (show matches), d (delete lines), y (yank lines)</td>
+</tr>
+
+<tr>
+<td>.,10g/{pattern}/d</td>
+<td>Delete matches from cursor and next 10 lines</td>
+</tr>
+
+<tr>
+<td>.,&lsquo;a+10g/{pattern}/d</td>
+<td>Delete matches from mark [a} and next 10 lines</td>
+</tr>
+
+<tr>
+<td>.,&lsquo;a+10g/{pattern}/#</td>
+<td>Show line numbers from mark [a} and next 10 lines</td>
+</tr>
+
+<tr>
+<td>g/X/p</td>
+<td>Print all lines matching {X}</td>
+</tr>
+
+<tr>
+<td>v/X/#</td>
+<td>Show lines and numbers not matching {X}</td>
+</tr>
+
+<tr>
+<td>:.,&lsquo;a s/{pattern}/{string}</td>
+<td>Search until mark {a}</td>
+</tr>
+
+<tr>
+<td>:g/{subject}/normal O{string}</td>
+<td>Add a line containing {string} above each occurrence of {subject}</td>
+</tr>
+
+<tr>
+<td>:noh</td>
+<td>Turn off highlighting until the next search</td>
+</tr>
+
+<tr>
+<td>d/{search}/e</td>
+<td>Delete until next occurence of {search} inclusive</td>
+</tr>
+
+<tr>
+<td>:g/^$/d</td>
+<td>Delete all blank lines</td>
+</tr>
+
+<tr>
+<td>:g/{search}/+ y</td>
+<td>Yank line after {search}</td>
+</tr>
+
+<tr>
+<td>Ctrl+r+</td>
+<td>Paste search pattern in command mode</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="visual-mode">Visual Mode</h3>
+
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>o</td>
+<td>Move the other end of the selection</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="visual-mode-1">Visual Mode</h3>
+
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>o</td>
+<td>Move the other end of the selection</td>
 </tr>
 </tbody>
 </table>
@@ -179,10 +768,10 @@
 	
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="/post/vs-shortcuts/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Visual Studio Shortcuts</p></a>
+		<a class="post-nav__link" href="/post/dotnet_core_commands/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Dotnet Core Commands</p></a>
 	</div>
 	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="/post/resharper_mnemonic/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Resharper Mnemonic Shortcuts</p></a>
+		<a class="post-nav__link" href="/post/resharper_shortcuts/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Resharper Shortcuts</p></a>
 	</div>
 </nav>
 
@@ -199,16 +788,16 @@
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/tfs_commands/">TFS Commands</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/reshaper_zensharp_shortcuts/">Resharper Zensharp Shortcuts</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/resharper_shortcuts/">Resharper Shortcuts</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/vim_shortcuts/">Vim Shortcuts</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/dotnet_core_commands/">Dotnet Core Commands</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/ms_sql_tips/">MS SQL Server Tips</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/resharper_mnemonic/">Resharper Mnemonic Shortcuts</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/vim_shortcuts/">Vim Shortcuts</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/vs-extensions/">Visual Studio Extensions</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/vs-shortcuts/">Visual Studio Shortcuts</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/benchmark_dotnet/">Benchmark DotNet</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/hugo-setup/">Hugo Setup</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/git-commands/">Git Commands</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/hugo-commands/">Hugo Commands</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/powershell-commands/">Powershell Commands</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/onenote_shortcuts/">OneNote Keyboard Shortcuts</a></li>
 		</ul>
 	</div>
 </div>
@@ -218,6 +807,7 @@
 	<h4 class="widget__title">Categories</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/categories/applications">Applications</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/commands-and-shortcuts">Commands-and-Shortcuts</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/static-site-generation">Static-Site-Generation</a></li>
 		</ul>
@@ -229,7 +819,9 @@
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
 		<a class="widget__link widget__link--taglist" href="/tags/analytics" title="analytics">analytics</a>
+		<a class="widget__link widget__link--taglist" href="/tags/chrome" title="chrome">chrome</a>
 		<a class="widget__link widget__link--taglist" href="/tags/commands" title="commands">commands</a>
+		<a class="widget__link widget__link--taglist" href="/tags/dotnet-core" title="dotnet-core">dotnet-core</a>
 		<a class="widget__link widget__link--taglist" href="/tags/git" title="git">git</a>
 		<a class="widget__link widget__link--taglist" href="/tags/html" title="html">html</a>
 		<a class="widget__link widget__link--taglist" href="/tags/hugo" title="hugo">hugo</a>
@@ -239,6 +831,8 @@
 		<a class="widget__link widget__link--taglist" href="/tags/onenote" title="onenote">onenote</a>
 		<a class="widget__link widget__link--taglist" href="/tags/powershell" title="powershell">powershell</a>
 		<a class="widget__link widget__link--taglist" href="/tags/resharper" title="resharper">resharper</a>
+		<a class="widget__link widget__link--taglist" href="/tags/source-control" title="source-control">source-control</a>
+		<a class="widget__link widget__link--taglist" href="/tags/tfs" title="tfs">tfs</a>
 		<a class="widget__link widget__link--taglist" href="/tags/vim" title="vim">vim</a>
 		<a class="widget__link widget__link--taglist" href="/tags/visual-studio" title="visual-studio">visual-studio</a>
 		<a class="widget__link widget__link--taglist" href="/tags/vs-code" title="vs-code">vs-code</a>

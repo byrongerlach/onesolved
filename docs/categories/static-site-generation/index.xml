@@ -18,9 +18,9 @@
       
       <guid>http://www.onesolved.com/post/hugo-setup/</guid>
       <description>My Hugo Setup Here&amp;rsquo;s how I set up this site using the Hugo static site generator.
-Configuration for Hosting on Github Since I host my site on Github, I followed the instructions on the Hugo site for hosting on Github
-I set my config.toml file to post to the &amp;ldquo;docs&amp;rdquo; dir in my github repo:
-baseurl = &amp;quot;http://www.onesolved.com&amp;quot; publishDir = &amp;quot;docs&amp;quot; title = &amp;quot;One Problem Solved&amp;quot;  Default Post Template (Archtype) When you add a post by running &amp;ldquo;hugo new post/new_post.</description>
+Themes There’s many available themes. I used the Mainroad theme, but I changed the colors.
+Composing Posts  To add a post, you just add a new markdown file with the correct metadata section at the top, and then run Hugo again to generate your static site.
+Here’s an example of what an actual posts look like written in markdown.</description>
     </item>
     
     <item>

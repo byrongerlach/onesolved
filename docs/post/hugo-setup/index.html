@@ -8,9 +8,9 @@
 <meta name="generator" content="Hugo 0.32.4" />
 <meta property="og:title" content="Hugo Setup" />
 <meta property="og:description" content="My Hugo Setup Here&rsquo;s how I set up this site using the Hugo static site generator.
-Configuration for Hosting on Github Since I host my site on Github, I followed the instructions on the Hugo site for hosting on Github
-I set my config.toml file to post to the &ldquo;docs&rdquo; dir in my github repo:
-baseurl = &quot;http://www.onesolved.com&quot; publishDir = &quot;docs&quot; title = &quot;One Problem Solved&quot;  Default Post Template (Archtype) When you add a post by running &ldquo;hugo new post/new_post." />
+Themes There’s many available themes. I used the Mainroad theme, but I changed the colors.
+Composing Posts  To add a post, you just add a new markdown file with the correct metadata section at the top, and then run Hugo again to generate your static site.
+Here’s an example of what an actual posts look like written in markdown." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.onesolved.com/post/hugo-setup/" />
 
@@ -73,18 +73,19 @@ baseurl = &quot;http://www.onesolved.com&quot; publishDir = &quot;docs&quot; tit
 
 <h2 id="my-hugo-setup">My Hugo Setup</h2>
 
-<p>Here&rsquo;s how I set up this site using the Hugo static site generator.</p>
+<p>Here&rsquo;s how I set up this site using the <a href="https://gohugo.io/">Hugo</a> static site generator.</p>
 
-<h3 id="configuration-for-hosting-on-github">Configuration for Hosting on Github</h3>
+<h3 id="themes">Themes</h3>
 
-<p>Since I host my site on Github, I followed the instructions on the Hugo site for <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">hosting on Github</a></p>
+<p>There’s many available <a href="https://themes.gohugo.io/">themes</a>. I used the <a href="https://themes.gohugo.io/mainroad/">Mainroad</a> theme, but I changed the colors.</p>
 
-<p>I set my config.toml file to post to the &ldquo;docs&rdquo; dir in my github repo:</p>
+<h3 id="composing-posts">Composing Posts </h3>
 
-<pre><code class="language-toml">baseurl = &quot;http://www.onesolved.com&quot;
-publishDir = &quot;docs&quot;
-title = &quot;One Problem Solved&quot;
-</code></pre>
+<p>To add a post, you just add a new <a href="https://daringfireball.net/projects/markdown/syntax">markdown</a> file with the correct metadata section at the top, and then run Hugo again to generate your static site.</p>
+
+<p><a href="https://raw.githubusercontent.com/byrongerlach/onesolved/master/content/post/vs-code-shortcuts.md">Here’s an example</a> of what an actual posts look like written in markdown. This post is just making a table with a header above it, with a few tags, etc., in the metadata section at the top.</p>
+
+<p><a href="http://onesolved.com/post/prismjs/">This post</a> shows how I do the syntax highlighting on the site using PrismJS.</p>
 
 <h3 id="default-post-template-archtype">Default Post Template (Archtype)</h3>
 
@@ -101,6 +102,19 @@ tags: []
 categories: []
 draft: true
 </code></pre>
+
+<h3 id="configuration-for-hosting-on-github">Configuration for Hosting on Github</h3>
+
+<p>Since I host my site on Github, I followed the instructions on the Hugo site for <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">hosting on Github</a></p>
+
+<p>I set my config.toml file to post to the &ldquo;docs&rdquo; dir in my github repo:</p>
+
+<pre><code class="language-toml">baseurl = &quot;http://www.onesolved.com&quot;
+publishDir = &quot;docs&quot;
+title = &quot;One Problem Solved&quot;
+</code></pre>
+
+<p>This is the <a href="https://github.com/byrongerlach/onesolved">repository</a> for my site.</p>
 
 		</div>
 		
@@ -147,16 +161,16 @@ draft: true
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/tfs_commands/">TFS Commands</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/reshaper_zensharp_shortcuts/">Resharper Zensharp Shortcuts</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/resharper_shortcuts/">Resharper Shortcuts</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/vim_shortcuts/">Vim Shortcuts</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/dotnet_core_commands/">Dotnet Core Commands</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/ms_sql_tips/">MS SQL Server Tips</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/resharper_mnemonic/">Resharper Mnemonic Shortcuts</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/vim_shortcuts/">Vim Shortcuts</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/vs-extensions/">Visual Studio Extensions</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/vs-shortcuts/">Visual Studio Shortcuts</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/benchmark_dotnet/">Benchmark DotNet</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/hugo-setup/">Hugo Setup</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/git-commands/">Git Commands</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/hugo-commands/">Hugo Commands</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/powershell-commands/">Powershell Commands</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/onenote_shortcuts/">OneNote Keyboard Shortcuts</a></li>
 		</ul>
 	</div>
 </div>
@@ -166,6 +180,7 @@ draft: true
 	<h4 class="widget__title">Categories</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/categories/applications">Applications</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/commands-and-shortcuts">Commands-and-Shortcuts</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/static-site-generation">Static-Site-Generation</a></li>
 		</ul>
@@ -177,7 +192,9 @@ draft: true
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
 		<a class="widget__link widget__link--taglist" href="/tags/analytics" title="analytics">analytics</a>
+		<a class="widget__link widget__link--taglist" href="/tags/chrome" title="chrome">chrome</a>
 		<a class="widget__link widget__link--taglist" href="/tags/commands" title="commands">commands</a>
+		<a class="widget__link widget__link--taglist" href="/tags/dotnet-core" title="dotnet-core">dotnet-core</a>
 		<a class="widget__link widget__link--taglist" href="/tags/git" title="git">git</a>
 		<a class="widget__link widget__link--taglist" href="/tags/html" title="html">html</a>
 		<a class="widget__link widget__link--taglist" href="/tags/hugo" title="hugo">hugo</a>
@@ -187,6 +204,8 @@ draft: true
 		<a class="widget__link widget__link--taglist" href="/tags/onenote" title="onenote">onenote</a>
 		<a class="widget__link widget__link--taglist" href="/tags/powershell" title="powershell">powershell</a>
 		<a class="widget__link widget__link--taglist" href="/tags/resharper" title="resharper">resharper</a>
+		<a class="widget__link widget__link--taglist" href="/tags/source-control" title="source-control">source-control</a>
+		<a class="widget__link widget__link--taglist" href="/tags/tfs" title="tfs">tfs</a>
 		<a class="widget__link widget__link--taglist" href="/tags/vim" title="vim">vim</a>
 		<a class="widget__link widget__link--taglist" href="/tags/visual-studio" title="visual-studio">visual-studio</a>
 		<a class="widget__link widget__link--taglist" href="/tags/vs-code" title="vs-code">vs-code</a>

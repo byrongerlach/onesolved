@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design Patterns on One Problem Solved</title>
+    <link>http://www.onesolved.com/tags/design-patterns/</link>
+    <description>Recent content in Design Patterns on One Problem Solved</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.onesolved.com/tags/design-patterns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Repository Pattern</title>
+      <link>http://www.onesolved.com/post/testing_advice/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.onesolved.com/post/testing_advice/</guid>
+      <description>Repository Pattern The repository pattern decouples your data store from your implementation. This solves a big problem in unit testing and development, which is: &amp;ldquo;Do I have to interact with a real database in my unit tests?&amp;rdquo; With the repository pattern, the answer is no.
+&amp;hellip; insert example that compiles
+Test-Driven Development  &amp;ldquo;Remember, we&amp;rsquo;re not going to code anything that doesn&amp;rsquo;t convert failing test into a passing one.&amp;rdquo; 1</description>
+    </item>
+    
+  </channel>
+</rss>

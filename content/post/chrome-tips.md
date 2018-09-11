@@ -1,10 +1,14 @@
 ---
 title: "Chrome Tips"
 date: 2017-07-14T21:04:57-07:00
-draft: true
+tags: ["Chrome"]
+categories: ["applications"]
+draft: false
 ---
 
-Delete cache for a site:  
+# Chrome Tips
+
+## How to Delete a Cache for a Site  
 
 Start developer tools with F12, then long-press on the reload button. You'll get an option for "Empty Cache and Hard Reload".
 
@@ -18,4 +22,3 @@ With Chrome closed, delete the Favicons file here:
 
 %localappdata%
 C:\Users\<user name>\AppData\Local\Google\Chrome\User Data\Default\
-

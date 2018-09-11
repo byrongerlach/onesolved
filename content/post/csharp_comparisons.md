@@ -1,6 +1,5 @@
 # Comparing Things in C#
 
-
 ## Comparing Reference Types
 
 Common ways to compare reference types in C# are: 

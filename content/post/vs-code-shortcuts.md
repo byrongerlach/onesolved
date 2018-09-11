@@ -33,6 +33,7 @@ Ctrl+K Ctrl+[  | Fold (collapse) all subregions  editor.foldRecursively
 Ctrl+K Ctrl+]  | Unfold (uncollapse) all subregions  editor.unfoldRecursively
 Ctrl+K Ctrl+0  | Fold (collapse) all regions editor.foldAll
 Ctrl+K Ctrl+J  | Unfold (uncollapse) all regions
+Ctrl+Shift+\   | Goto matching bracket/brace 
 
 ## My Keybindings.json File
 ```

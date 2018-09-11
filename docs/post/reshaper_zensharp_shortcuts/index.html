@@ -3,18 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title></title>
+<title>Resharper Zensharp Shortcuts</title>
 
 <meta name="generator" content="Hugo 0.32.4" />
-<meta property="og:title" content="" />
-<meta property="og:description" content="// C# templates // Sample file space ::= &ldquo; &ldquo; cursor ::= &ldquo;$END$&rdquo; cursorb ::= &ldquo;(&rdquo; cursor &ldquo;)&rdquo; // Resharper macros: identifier ::= identifier2 ::= // // Types: // suggType ::= // Primive types: maybeType ::= type | &ldquo;void&rdquo; type ::= generic | primType (&ldquo;?&rdquo;=&ldquo;?&rdquo;)? (&rdquo;[]&ldquo;=a)? | suggType primType ::= string=s | byte=by | bool=b | &ldquo;System.DateTime&rdquo;=dt | decimal=dc | double=d | int=i | uint=ui | &ldquo;System.Guid&rdquo;=g | &ldquo;System.Uri&rdquo;=u | &ldquo;System." />
+<meta property="og:title" content="Resharper Zensharp Shortcuts" />
+<meta property="og:description" content="Resharper Zensharp Shortcuts CSharpTypes    Shortcut Description     ppt public property&lt;T&gt;   pM~s public static Method IEnumerable   Mt~ public static static ienumerable    Zensharp Template Examples // C# templates // Sample file space ::= &quot; &quot; cursor ::= &quot;$END$&quot; cursorb ::= &quot;(&quot; cursor &quot;)&quot; // Resharper macros: identifier ::= &lt;name default=&quot;$name$&quot; macros = &quot;complete()&quot;&gt; identifier2 ::= &lt;name2 default=&quot;$name2$&quot; macros = &quot;complete()&quot;&gt; // // Types: // suggType ::= &lt;type short=&quot;t&quot; expand=&quot;$type$&quot; macros = &quot;complete()&quot;&gt; // Primive types: maybeType ::= type | &quot;void&quot; type ::= generic | primType (&quot;?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.onesolved.com/post/reshaper_zensharp_shortcuts/" />
 
 
 
+<meta property="article:published_time" content="2018-09-01T10:46:53-08:00"/>
 
-
+<meta property="article:modified_time" content="2018-09-01T10:46:53-08:00"/>
 
 
 
@@ -55,113 +56,164 @@
 <div class="main-content content" role="main" itemprop="mainContentOfPage">
 	<article class="post">
 		<header class="post__header clearfix">
-			<h1 class="post__title"></h1>
+			<h1 class="post__title">Resharper Zensharp Shortcuts</h1>
+			<p class="post__meta meta">
+				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+				<time class="post__meta-date" datetime="2018-09-01T10:46:53">September 01, 2018</time>
+				<span class="post__meta-categories meta-categories">
+					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+					<a class="meta-categories__link" href="/categories/commands-and-shortcuts" rel="category">commands and shortcuts</a></span>
+			</p>
 		</header>
 		<div class="post__content clearfix">
-			<p>// C# templates
+			
+
+<h1 id="resharper-zensharp-shortcuts">Resharper Zensharp Shortcuts</h1>
+
+<h2 id="csharptypes">CSharpTypes</h2>
+
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>ppt</td>
+<td>public property&lt;T&gt;</td>
+</tr>
+
+<tr>
+<td>pM~s</td>
+<td>public static Method IEnumerable<string></td>
+</tr>
+
+<tr>
+<td>Mt~</td>
+<td>public static static ienumerable</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="zensharp-template-examples">Zensharp Template Examples</h2>
+
+<pre><code>// C# templates
 // Sample file
-space ::= &ldquo; &ldquo;
-cursor ::= &ldquo;$END$&rdquo;
-cursorb ::= &ldquo;(&rdquo; cursor &ldquo;)&rdquo;
+space ::= &quot; &quot;
+cursor ::= &quot;$END$&quot;
+cursorb ::= &quot;(&quot; cursor &quot;)&quot;
 // Resharper macros:
-identifier ::= <name default="$name$" macros = "complete()">
-identifier2 ::= <name2 default="$name2$" macros = "complete()">
+identifier ::= &lt;name default=&quot;$name$&quot; macros = &quot;complete()&quot;&gt;
+identifier2 ::= &lt;name2 default=&quot;$name2$&quot; macros = &quot;complete()&quot;&gt;
 //
 // Types:
 //
-suggType ::= <type short="t" expand="$type$" macros = "complete()"></p>
+suggType ::= &lt;type short=&quot;t&quot; expand=&quot;$type$&quot; macros = &quot;complete()&quot;&gt;
 
-<p>// Primive types:
-maybeType  ::= type | &ldquo;void&rdquo;
-type       ::= generic | primType (&ldquo;?&rdquo;=&ldquo;?&rdquo;)? (&rdquo;[]&ldquo;=a)? | suggType
-primType   ::= string=s | byte=by | bool=b | &ldquo;System.DateTime&rdquo;=dt | decimal=dc | double=d | int=i | uint=ui | &ldquo;System.Guid&rdquo;=g | &ldquo;System.Uri&rdquo;=u | &ldquo;System.Xml.Linq.XElement&rdquo;=x |
+// Primive types:
+maybeType  ::= type | &quot;void&quot;
+type       ::= generic | primType (&quot;?&quot;=&quot;?&quot;)? (&quot;[]&quot;=a)? | suggType
+primType   ::= string=s | byte=by | bool=b | &quot;System.DateTime&quot;=dt | decimal=dc | double=d | int=i | uint=ui | &quot;System.Guid&quot;=g | &quot;System.Uri&quot;=u | &quot;System.Xml.Linq.XElement&quot;=x |
                object=o
-taskType   ::= &ldquo;System.Threading.Tasks.Task&rdquo;</p>
+taskType   ::= &quot;System.Threading.Tasks.Task&quot;
 
-<p>// Complex types:
-generic1 ::= (SCG &ldquo;.&rdquo; (&ldquo;IList&rdquo;=l | &ldquo;IEnumerable&rdquo;=&rdquo;~&ldquo;)) &ldquo;&lt;&rdquo; type &ldquo;&gt;&rdquo;
-generic2 ::= (SCG &ldquo;.&rdquo; (&ldquo;SortedList&rdquo;=sl | &ldquo;IDictionary&rdquo;=di)) &ldquo;&lt;&rdquo; type &ldquo;, &rdquo; type &ldquo;&gt;&rdquo;
-SCG      ::= &ldquo;System.Collections.Generic&rdquo;
-generic ::= generic1 | generic2</p>
+// Complex types:
+generic1 ::= (SCG &quot;.&quot; (&quot;IList&quot;=l | &quot;IEnumerable&quot;=&quot;~&quot;)) &quot;&lt;&quot; type &quot;&gt;&quot;
+generic2 ::= (SCG &quot;.&quot; (&quot;SortedList&quot;=sl | &quot;IDictionary&quot;=di)) &quot;&lt;&quot; type &quot;, &quot; type &quot;&gt;&quot;
+SCG      ::= &quot;System.Collections.Generic&quot;
+generic ::= generic1 | generic2
 
-<p>access ::= (internal=i | public=p | private=_ | protected=P) space</p>
 
-<p>// Auto properties:
-property        ::= access (&ldquo;abstract &ldquo;=ap | &ldquo;static &ldquo;=P | &ldquo;virtual &ldquo;=vp | &ldquo;&rdquo;=p) type space identifier propertyBody cursor
-propertyBody    ::= &ldquo;{ get;&rdquo; propertySetAccessor &ldquo; set; }&rdquo;
-propertySetAccessor ::= &ldquo;protected &ldquo;=&rdquo;+p&rdquo; | &ldquo;&rdquo;=&ldquo;+&rdquo; | &ldquo;private &ldquo;</p>
+access ::= (internal=i | public=p | private=_ | protected=P) space
 
-<p>// Methods:
+// Auto properties:
+property        ::= access (&quot;abstract &quot;=ap | &quot;static &quot;=P | &quot;virtual &quot;=vp | &quot;&quot;=p) type space identifier propertyBody cursor
+propertyBody    ::= &quot;{ get;&quot; propertySetAccessor &quot; set; }&quot;
+propertySetAccessor ::= &quot;protected &quot;=&quot;+p&quot; | &quot;&quot;=&quot;+&quot; | &quot;private &quot;
+
+// Methods:
 methodAttributes ::=
-    | &ldquo;[NUnit.Framework.SetUpAttribute]&ldquo;=su
-    | &ldquo;[NUnit.Framework.TestFixtureSetUpAttribute]&ldquo;=tfsu
-    | &ldquo;[NUnit.Framework.TestFixtureTearDownAttribute]&ldquo;=tftd
-    | &ldquo;[NUnit.Framework.TearDownAttribute]&ldquo;=td
-    | &ldquo;[NUnit.Framework.TestCaseAttribute]&ldquo;=tc
-    | &ldquo;[TestMethod]&ldquo;=t
-//    | &ldquo;[NUnit.Framework.TestAttribute]&ldquo;=t</p>
+    | &quot;[NUnit.Framework.SetUpAttribute]&quot;=su
+    | &quot;[NUnit.Framework.TestFixtureSetUpAttribute]&quot;=tfsu
+    | &quot;[NUnit.Framework.TestFixtureTearDownAttribute]&quot;=tftd
+    | &quot;[NUnit.Framework.TearDownAttribute]&quot;=td
+    | &quot;[NUnit.Framework.TestCaseAttribute]&quot;=tc
+    | &quot;[TestMethod]&quot;=t
+//    | &quot;[NUnit.Framework.TestAttribute]&quot;=t
 
-<p>method_async ::= (methodAttributes)? access &ldquo;async&rdquo; space (&ldquo;virtual &ldquo;=vm | &ldquo;abstract &ldquo;=am | &ldquo;static &ldquo;=M | &ldquo;&rdquo;=m)   (taskType &ldquo;&lt;&ldquo;=T type &ldquo;&gt;&rdquo; | taskType &ldquo;&rdquo;=T) space identifier methodArgs methodBody
-method_generic ::= (methodAttributes)? access (&ldquo;virtual &ldquo;=vm | &ldquo;abstract &ldquo;=am | &ldquo;static &ldquo;=M | &ldquo;&rdquo;=m) (type | &ldquo;void&rdquo;) space identifier methodArgs methodBody
+method_async ::= (methodAttributes)? access &quot;async&quot; space (&quot;virtual &quot;=vm | &quot;abstract &quot;=am | &quot;static &quot;=M | &quot;&quot;=m)   (taskType &quot;&lt;&quot;=T type &quot;&gt;&quot; | taskType &quot;&quot;=T) space identifier methodArgs methodBody
+method_generic ::= (methodAttributes)? access (&quot;virtual &quot;=vm | &quot;abstract &quot;=am | &quot;static &quot;=M | &quot;&quot;=m) (type | &quot;void&quot;) space identifier methodArgs methodBody
 method ::= method_async | method_generic
-methodBody ::= &ldquo; { &rdquo; cursor &ldquo; }&rdquo;
-methodArgs ::=  &ldquo;(&rdquo; ((&ldquo;&rdquo;=&ldquo;,&rdquo; | &ldquo;&rdquo;=&ldquo;(&rdquo;) arg)? &ldquo;)&rdquo;
-arg ::= primType &ldquo; &rdquo; identifier2</p>
+methodBody ::= &quot; { &quot; cursor &quot; }&quot;
+methodArgs ::=  &quot;(&quot; ((&quot;&quot;=&quot;,&quot; | &quot;&quot;=&quot;(&quot;) arg)? &quot;)&quot;
+arg ::= primType &quot; &quot; identifier2
 
-<p>// Consts:
-const ::= access &ldquo;const &ldquo;=c primType space identifier &ldquo;= &ldquo;&rdquo;&rdquo; identifier &ldquo;&rdquo;&ldquo;;&rdquo;</p>
+// Consts:
+const ::= access &quot;const &quot;=c primType space identifier &quot;= &quot;&quot;&quot; identifier &quot;&quot;&quot;;&quot;
 
-<p>// Fields:
-field ::= access (&ldquo;readonly &ldquo;=r)? type space identifier (&rdquo;=&ldquo;=&rdquo;=&rdquo; identifier2 &ldquo;;&rdquo; | &ldquo;;&rdquo;)</p>
+// Fields:
+field ::= access (&quot;readonly &quot;=r)? type space identifier (&quot;=&quot;=&quot;=&quot; identifier2 &quot;;&quot; | &quot;;&quot;)
 
-<p>// Classes:
-classAtributes ::= (&rdquo;[NUnit.Framework.TestFixtureAttribute]&rdquo; = tf)?
-class ::= classAtributes access (&ldquo;sealed &ldquo;=s)? (&ldquo;class&rdquo;=c | &ldquo;static class&rdquo;=C) space  classBody
-classBody ::= identifier (&rdquo; : &ldquo;=&rdquo;:&rdquo; type)? &ldquo;{&rdquo; cursor &ldquo;}&rdquo;</p>
+// Classes:
+classAtributes ::= (&quot;[NUnit.Framework.TestFixtureAttribute]&quot; = tf)?
+class ::= classAtributes access (&quot;sealed &quot;=s)? (&quot;class&quot;=c | &quot;static class&quot;=C) space  classBody
+classBody ::= identifier (&quot; : &quot;=&quot;:&quot; type)? &quot;{&quot; cursor &quot;}&quot;
 
-<p>//Enums:
-enum ::= access space &ldquo;enum&rdquo;=e space identifier &ldquo;{&rdquo; cursor &ldquo;}&rdquo;</p>
+//Enums:
+enum ::= access space &quot;enum&quot;=e space identifier &quot;{&quot; cursor &quot;}&quot;
 
-<p>scope &ldquo;InCSharpClass&rdquo; {
-  start    ::=  method | property | field | const | other</p>
+scope &quot;InCSharpClass&quot; {
+  start    ::=  method | property | field | const | other
 
-<p>other ::=
+  other ::=
     | class
-    | &ldquo;&rdquo;=dbset &ldquo;public DBSet&lt;&rdquo; identifier &ldquo; &gt; &rdquo; identifier &ldquo;s {get; set; }&rdquo;
-}</p>
+    | &quot;&quot;=dbset &quot;public DBSet&lt;&quot; identifier &quot; &gt; &quot; identifier &quot;s {get; set; }&quot;
+}
 
-<p>scope &ldquo;InCSharpTypeAndNamespace&rdquo; {
+scope &quot;InCSharpTypeAndNamespace&quot; {
   start ::=
     | class
     | interface
-    | enum</p>
+    | enum
 
-<p>interface ::= access &ldquo;interface&rdquo;=i space classBody
-}</p>
+  interface ::= access &quot;interface&quot;=i space classBody
+}
 
-<p>scope &ldquo;InCSharpInterface&rdquo; {
+scope &quot;InCSharpInterface&quot; {
   start ::=
     | type space identifier propertyBody cursor
     | method
-    | property</p>
+    | property
 
-<p>propertyBody ::= &ldquo;{ get; }&rdquo; | &ldquo;{ get; set; }&rdquo;=&ldquo;+&rdquo;
-  access ::= &ldquo;&rdquo;
-  methodBody ::= &ldquo;;&rdquo;
-}</p>
+  propertyBody ::= &quot;{ get; }&quot; | &quot;{ get; set; }&quot;=&quot;+&quot;
+  access ::= &quot;&quot;
+  methodBody ::= &quot;;&quot;
+}
 
-<p>scope &ldquo;InCSharpStruct&rdquo; {
- // start ::= &ldquo;&rdquo;
-}</p>
+scope &quot;InCSharpStruct&quot; {
+ // start ::= &quot;&quot;
+}
 
-<p>scope &ldquo;InCSharpStatement&rdquo; {
+scope &quot;InCSharpStatement&quot; {
   start ::=
-    | &ldquo;if (&rdquo;=ifr identifier &ldquo; == null) return;&rdquo;
-    | &ldquo;Log.&rdquo;=l (Fatal=f | Info=i | Error=e | Trace=t | Debug=d) &ldquo;(&rdquo;&ldquo;&rdquo; cursor &ldquo;&rdquo;&ldquo;);&rdquo;
-}</p>
+    | &quot;if (&quot;=ifr identifier &quot; == null) return;&quot;
+    | &quot;Log.&quot;=l (Fatal=f | Info=i | Error=e | Trace=t | Debug=d) &quot;(&quot;&quot;&quot; cursor &quot;&quot;&quot;);&quot;
+}
+
+</code></pre>
 
 		</div>
 		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link" href="/tags/resharper/" rel="tag">Resharper</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/keyboard-shortcuts/" rel="tag">keyboard shortcuts</a></li>
+	</ul>
+</div>
 
 	</article>
 	
@@ -179,10 +231,10 @@ enum ::= access space &ldquo;enum&rdquo;=e space identifier &ldquo;{&rdquo; curs
 	
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="/post/several_benchmarks/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title"></p></a>
+		<a class="post-nav__link" href="/post/resharper_shortcuts/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Resharper Shortcuts</p></a>
 	</div>
 	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="/post/remote_desktop_shortcuts/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title"></p></a>
+		<a class="post-nav__link" href="/post/tfs_commands/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">TFS Commands</p></a>
 	</div>
 </nav>
 
@@ -199,16 +251,16 @@ enum ::= access space &ldquo;enum&rdquo;=e space identifier &ldquo;{&rdquo; curs
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/tfs_commands/">TFS Commands</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/reshaper_zensharp_shortcuts/">Resharper Zensharp Shortcuts</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/resharper_shortcuts/">Resharper Shortcuts</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/vim_shortcuts/">Vim Shortcuts</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/dotnet_core_commands/">Dotnet Core Commands</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/ms_sql_tips/">MS SQL Server Tips</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/resharper_mnemonic/">Resharper Mnemonic Shortcuts</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/vim_shortcuts/">Vim Shortcuts</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/vs-extensions/">Visual Studio Extensions</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/vs-shortcuts/">Visual Studio Shortcuts</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/benchmark_dotnet/">Benchmark DotNet</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/hugo-setup/">Hugo Setup</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/git-commands/">Git Commands</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/hugo-commands/">Hugo Commands</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/powershell-commands/">Powershell Commands</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/onenote_shortcuts/">OneNote Keyboard Shortcuts</a></li>
 		</ul>
 	</div>
 </div>
@@ -218,6 +270,7 @@ enum ::= access space &ldquo;enum&rdquo;=e space identifier &ldquo;{&rdquo; curs
 	<h4 class="widget__title">Categories</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/categories/applications">Applications</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/commands-and-shortcuts">Commands-and-Shortcuts</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/static-site-generation">Static-Site-Generation</a></li>
 		</ul>
@@ -229,7 +282,9 @@ enum ::= access space &ldquo;enum&rdquo;=e space identifier &ldquo;{&rdquo; curs
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
 		<a class="widget__link widget__link--taglist" href="/tags/analytics" title="analytics">analytics</a>
+		<a class="widget__link widget__link--taglist" href="/tags/chrome" title="chrome">chrome</a>
 		<a class="widget__link widget__link--taglist" href="/tags/commands" title="commands">commands</a>
+		<a class="widget__link widget__link--taglist" href="/tags/dotnet-core" title="dotnet-core">dotnet-core</a>
 		<a class="widget__link widget__link--taglist" href="/tags/git" title="git">git</a>
 		<a class="widget__link widget__link--taglist" href="/tags/html" title="html">html</a>
 		<a class="widget__link widget__link--taglist" href="/tags/hugo" title="hugo">hugo</a>
@@ -239,6 +294,8 @@ enum ::= access space &ldquo;enum&rdquo;=e space identifier &ldquo;{&rdquo; curs
 		<a class="widget__link widget__link--taglist" href="/tags/onenote" title="onenote">onenote</a>
 		<a class="widget__link widget__link--taglist" href="/tags/powershell" title="powershell">powershell</a>
 		<a class="widget__link widget__link--taglist" href="/tags/resharper" title="resharper">resharper</a>
+		<a class="widget__link widget__link--taglist" href="/tags/source-control" title="source-control">source-control</a>
+		<a class="widget__link widget__link--taglist" href="/tags/tfs" title="tfs">tfs</a>
 		<a class="widget__link widget__link--taglist" href="/tags/vim" title="vim">vim</a>
 		<a class="widget__link widget__link--taglist" href="/tags/visual-studio" title="visual-studio">visual-studio</a>
 		<a class="widget__link widget__link--taglist" href="/tags/vs-code" title="vs-code">vs-code</a>

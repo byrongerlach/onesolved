@@ -6,7 +6,7 @@
     <description>Recent content in Vim on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jan 2018 10:37:46 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jul 2018 10:37:46 -0800</lastBuildDate>
     
 	<atom:link href="http://www.onesolved.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>Vim Shortcuts</title>
       <link>http://www.onesolved.com/post/vim_shortcuts/</link>
-      <pubDate>Tue, 09 Jan 2018 10:37:46 -0800</pubDate>
+      <pubDate>Mon, 16 Jul 2018 10:37:46 -0800</pubDate>
       
       <guid>http://www.onesolved.com/post/vim_shortcuts/</guid>
-      <description>My Commonly-Used Shortcuts Folding in Vim    Shortcut Description     zf#j  creates a fold from the cursor down # lines.   zf/string  creates a fold from the cursor to string .   zj  moves the cursor to the next fold.   zk  moves the cursor to the previous fold.   zo  opens a fold at the cursor.</description>
+      <description>My Commonly-Used Shortcuts Folding in Vim    Shortcut Description     zf#j creates a fold from the cursor down # lines   zf/string creates a fold from the cursor to string   zj moves the cursor to the next fold   zk moves the cursor to the previous fold   zo opens a fold at the cursor   zO opens all folds at the cursor   zm increases the foldlevel by one   zM closes all open folds   zr decreases the foldlevel by one   zR decreases the foldlevel to zero &amp;ndash; all folds will be open   zd deletes the fold at the cursor   zE deletes all folds   [z move to start of open fold   ]z move to end of open fold   zO opens all folds at the cursor    Configuration    Shortcut Description     :vimfiles Show the loaded vim files (vimrc, etc.</description>
     </item>
     
   </channel>

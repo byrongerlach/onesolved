@@ -21,11 +21,29 @@
     </item>
     
     <item>
+      <title>Chrome</title>
+      <link>http://www.onesolved.com/tags/chrome/</link>
+      <pubDate>Fri, 14 Jul 2017 21:04:57 -0700</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Commands</title>
       <link>http://www.onesolved.com/tags/commands/</link>
-      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Sep 2018 12:00:46 -0800</pubDate>
       
       <guid>http://www.onesolved.com/tags/commands/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dotnet Core</title>
+      <link>http://www.onesolved.com/tags/dotnet-core/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/dotnet-core/</guid>
       <description></description>
     </item>
     
@@ -68,7 +86,7 @@
     <item>
       <title>Keyboard Shortcuts</title>
       <link>http://www.onesolved.com/tags/keyboard-shortcuts/</link>
-      <pubDate>Tue, 09 Jan 2018 10:37:46 -0800</pubDate>
+      <pubDate>Sat, 01 Sep 2018 10:46:53 -0800</pubDate>
       
       <guid>http://www.onesolved.com/tags/keyboard-shortcuts/</guid>
       <description></description>
@@ -104,16 +122,34 @@
     <item>
       <title>Resharper</title>
       <link>http://www.onesolved.com/tags/resharper/</link>
-      <pubDate>Tue, 09 Jan 2018 10:37:46 -0800</pubDate>
+      <pubDate>Sat, 01 Sep 2018 10:46:53 -0800</pubDate>
       
       <guid>http://www.onesolved.com/tags/resharper/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Source Control</title>
+      <link>http://www.onesolved.com/tags/source-control/</link>
+      <pubDate>Tue, 04 Sep 2018 12:00:46 -0800</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/source-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tfs</title>
+      <link>http://www.onesolved.com/tags/tfs/</link>
+      <pubDate>Tue, 04 Sep 2018 12:00:46 -0800</pubDate>
+      
+      <guid>http://www.onesolved.com/tags/tfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Vim</title>
       <link>http://www.onesolved.com/tags/vim/</link>
-      <pubDate>Tue, 09 Jan 2018 10:37:46 -0800</pubDate>
+      <pubDate>Mon, 16 Jul 2018 10:37:46 -0800</pubDate>
       
       <guid>http://www.onesolved.com/tags/vim/</guid>
       <description></description>
