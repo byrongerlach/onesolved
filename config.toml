@@ -40,9 +40,9 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [mediaTypes]
 [mediaTypes."text/enriched"]
-suffix = "enr"
+suffixes = ["enr"]
 [mediaTypes."text/html"]
-suffix = "asp"
+suffixes = ["asp"]
 
 [taxonomies]
   tag = "tags"
