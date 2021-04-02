@@ -1,4 +1,4 @@
-baseurl = "http://www.onesolved.com"
+baseurl = "http://onesolved.com"
 publishDir = "docs"
 title = "One Problem Solved"
 languageCode = "en-us"
