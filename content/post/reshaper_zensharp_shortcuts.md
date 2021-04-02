@@ -6,8 +6,6 @@ categories: ["commands and shortcuts"]
 draft: false
 ---
 
-# Resharper Zensharp Shortcuts
-
 ## CSharpTypes 
 
 Shortcut | Description

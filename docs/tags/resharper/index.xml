@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resharper on One Problem Solved</title>
@@ -6,18 +6,14 @@
     <description>Recent content in Resharper on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Sep 2018 10:46:53 -0800</lastBuildDate>
-    
-	<atom:link href="http://www.onesolved.com/tags/resharper/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 01 Sep 2018 10:46:53 -0800</lastBuildDate><atom:link href="http://www.onesolved.com/tags/resharper/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resharper Zensharp Shortcuts</title>
       <link>http://www.onesolved.com/post/reshaper_zensharp_shortcuts/</link>
       <pubDate>Sat, 01 Sep 2018 10:46:53 -0800</pubDate>
       
       <guid>http://www.onesolved.com/post/reshaper_zensharp_shortcuts/</guid>
-      <description>Resharper Zensharp Shortcuts CSharpTypes    Shortcut Description     ppt public property&amp;lt;T&amp;gt;   pM~s public static Method IEnumerable   Mt~ public static static ienumerable    Zensharp Template Examples // C# templates // Sample file space ::= &amp;quot; &amp;quot; cursor ::= &amp;quot;$END$&amp;quot; cursorb ::= &amp;quot;(&amp;quot; cursor &amp;quot;)&amp;quot; // Resharper macros: identifier ::= &amp;lt;name default=&amp;quot;$name$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt; identifier2 ::= &amp;lt;name2 default=&amp;quot;$name2$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt; // // Types: // suggType ::= &amp;lt;type short=&amp;quot;t&amp;quot; expand=&amp;quot;$type$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt; // Primive types: maybeType ::= type | &amp;quot;void&amp;quot; type ::= generic | primType (&amp;quot;?</description>
+      <description>CSharpTypes    Shortcut Description     ppt public property&amp;lt;T&amp;gt;   pM~s public static Method IEnumerable   Mt~ public static static ienumerable    Zensharp Template Examples // C# templates// Sample filespace ::= &amp;quot; &amp;quot;cursor ::= &amp;quot;$END$&amp;quot;cursorb ::= &amp;quot;(&amp;quot; cursor &amp;quot;)&amp;quot;// Resharper macros:identifier ::= &amp;lt;name default=&amp;quot;$name$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt;identifier2 ::= &amp;lt;name2 default=&amp;quot;$name2$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt;//// Types://suggType ::= &amp;lt;type short=&amp;quot;t&amp;quot; expand=&amp;quot;$type$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt;// Primive types:maybeType ::= type | &amp;quot;void&amp;quot;type ::= generic | primType (&amp;quot;?</description>
     </item>
     
     <item>
@@ -26,7 +22,7 @@
       <pubDate>Sat, 04 Aug 2018 10:37:46 -0800</pubDate>
       
       <guid>http://www.onesolved.com/post/resharper_shortcuts/</guid>
-      <description>My Commonly-used Shortcuts    Shortcut Description     Ctrl+Shift+R Refactor this   Ctrl+&amp;#8679; Previous method   Ctrl+Shift+, Recent edits   Ctrl+Bk Last edit   Ctrl+Shift+Q Peek definition   Ctrl+Alt+f View file structure   Ctrl+Shift+F4 Close recent tool window   Ctrl+Alt+Bk Activate recent tool window   Ctrl+PgUp/PgDown Move to next highlight    Not Enabled for My Setup Ctrl+w | select parts of expressions Ctrl+Space | method signatures</description>
+      <description>My Commonly-used Shortcuts    Shortcut Description     Ctrl+Shift+R Refactor this   Ctrl+⇧ Previous method   Ctrl+Shift+, Recent edits   Ctrl+Bk Last edit   Ctrl+Shift+Q Peek definition   Ctrl+Alt+f View file structure   Ctrl+Shift+F4 Close recent tool window   Ctrl+Alt+Bk Activate recent tool window   Ctrl+PgUp/PgDown Move to next highlight    Not Enabled for My Setup Ctrl+w | select parts of expressions Ctrl+Space | method signatures</description>
     </item>
     
     <item>

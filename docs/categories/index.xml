@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on One Problem Solved</title>
@@ -6,35 +6,31 @@
     <description>Recent content in Categories on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jul 2017 21:04:57 -0700</lastBuildDate>
-    
-	<atom:link href="http://www.onesolved.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 01 Sep 2018 10:46:53 -0800</lastBuildDate><atom:link href="http://www.onesolved.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Applications</title>
-      <link>http://www.onesolved.com/categories/applications/</link>
-      <pubDate>Fri, 14 Jul 2017 21:04:57 -0700</pubDate>
-      
-      <guid>http://www.onesolved.com/categories/applications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Commands and Shortcuts</title>
+      <title>commands and shortcuts</title>
       <link>http://www.onesolved.com/categories/commands-and-shortcuts/</link>
-      <pubDate>Tue, 04 Sep 2018 12:00:46 -0800</pubDate>
+      <pubDate>Sat, 01 Sep 2018 10:46:53 -0800</pubDate>
       
       <guid>http://www.onesolved.com/categories/commands-and-shortcuts/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Static Site Generation</title>
+      <title>static site generation</title>
       <link>http://www.onesolved.com/categories/static-site-generation/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>http://www.onesolved.com/categories/static-site-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>applications</title>
+      <link>http://www.onesolved.com/categories/applications/</link>
+      <pubDate>Fri, 14 Jul 2017 21:04:57 -0700</pubDate>
+      
+      <guid>http://www.onesolved.com/categories/applications/</guid>
       <description></description>
     </item>
     

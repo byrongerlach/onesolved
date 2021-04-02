@@ -1,77 +1,87 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html class="no-js" lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vim Shortcuts</title>
-
-<meta name="generator" content="Hugo 0.32.4" />
-<meta property="og:title" content="Vim Shortcuts" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Vim Shortcuts - One Problem Solved</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Vim Shortcuts" />
 <meta property="og:description" content="My Commonly-Used Shortcuts Folding in Vim    Shortcut Description     zf#j creates a fold from the cursor down # lines   zf/string creates a fold from the cursor to string   zj moves the cursor to the next fold   zk moves the cursor to the previous fold   zo opens a fold at the cursor   zO opens all folds at the cursor   zm increases the foldlevel by one   zM closes all open folds   zr decreases the foldlevel by one   zR decreases the foldlevel to zero &ndash; all folds will be open   zd deletes the fold at the cursor   zE deletes all folds   [z move to start of open fold   ]z move to end of open fold   zO opens all folds at the cursor    Configuration    Shortcut Description     :vimfiles Show the loaded vim files (vimrc, etc." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.onesolved.com/post/vim_shortcuts/" />
+<meta property="og:url" content="http://www.onesolved.com/post/vim_shortcuts/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2018-07-16T10:37:46-08:00" />
+<meta property="article:modified_time" content="2018-07-16T10:37:46-08:00" />
 
 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 
-<meta property="article:published_time" content="2018-07-16T10:37:46-08:00"/>
+	<link rel="stylesheet" href="/css/style.css">
+	
 
-<meta property="article:modified_time" content="2018-07-16T10:37:46-08:00"/>
-
-
-
-
-
-
-
-
-
-
-
-<link rel="dns-prefetch" href="//fonts.googleapis.com" />
-<link rel="dns-prefetch" href="//fonts.gstatic.com" />
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" type="text/css" media="all" />
-<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
-<script type="text/javascript" src="/js/scripts.js"></script>
- 
-<link rel="shortcut icon" href="/logo.png">
- 
-<link href="/css/prism.css" rel="stylesheet" />
+	<link rel="icon" href="/img/avatar_pipe.png">
+	
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://www.onesolved.com/img/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.onesolved.com/img/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.onesolved.com/img/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.onesolved.com/img/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="http://www.onesolved.com/img/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://www.onesolved.com/img/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://www.onesolved.com/img/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://www.onesolved.com/img/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="http://www.onesolved.com/img/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="http://www.onesolved.com/img/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="http://www.onesolved.com/img/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="http://www.onesolved.com/img/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="http://www.onesolved.com/img/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="One Problem Solved"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="http://www.onesolved.com/img/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="http://www.onesolved.com/img/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="http://www.onesolved.com/img/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="http://www.onesolved.com/img/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="http://www.onesolved.com/img/mstile-310x310.png" />
+		
 </head>
-<body class="body body-right-sidebar mobile" itemscope="itemscope" itemtype="http://schema.org/WebPage">
-	<div class="container container-outer">
-		<header class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
-			<div class="container container-inner clearfix">
-				<div class="logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
-					<a class="logo__link" href="/" title="One Problem Solved" rel="home">
-						<h1 class="logo__title">One Problem Solved</h1>
-						<h2 class="logo__tagline">All problems solved? Not quite...</h2>
-					</a>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="One Problem Solved" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/avatar_pipe.png">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">One Problem Solved</div>
+					<div class="logo__tagline">All problems solved? Not quite...</div>
 				</div>
-			</div>
-			<hr class="divider">
-		</header>
-		<div class="wrapper clearfix">
-
-<div class="main-content content" role="main" itemprop="mainContentOfPage">
-	<article class="post">
-		<header class="post__header clearfix">
-			<h1 class="post__title">Vim Shortcuts</h1>
-			<p class="post__meta meta">
-				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-				<time class="post__meta-date" datetime="2018-07-16T10:37:46">July 16, 2018</time>
-				<span class="post__meta-categories meta-categories">
-					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-					<a class="meta-categories__link" href="/categories/commands-and-shortcuts" rel="category">commands and shortcuts</a></span>
-			</p>
-		</header>
-		<div class="post__content clearfix">
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
 			
-
-<h2 id="my-commonly-used-shortcuts">My Commonly-Used Shortcuts</h2>
-
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Vim Shortcuts</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2018-07-16T10:37:46-08:00">July 16, 2018</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/commands-and-shortcuts/" rel="category">commands and shortcuts</a>
+	</span>
+</div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/tags/vim/" rel="category">Vim</a>, <a class="meta__link" href="/tags/keyboard-shortcuts/" rel="category">keyboard shortcuts</a>
+	</span>
+</div></div>
+		</header><div class="content post__content clearfix">
+			<h2 id="my-commonly-used-shortcuts">My Commonly-Used Shortcuts</h2>
 <h3 id="folding-in-vim">Folding in Vim</h3>
-
 <table>
 <thead>
 <tr>
@@ -79,87 +89,70 @@
 <th>Description</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>zf#j</td>
 <td>creates a fold from the cursor down # lines</td>
 </tr>
-
 <tr>
 <td>zf/string</td>
 <td>creates a fold from the cursor to string</td>
 </tr>
-
 <tr>
 <td>zj</td>
 <td>moves the cursor to the next fold</td>
 </tr>
-
 <tr>
 <td>zk</td>
 <td>moves the cursor to the previous fold</td>
 </tr>
-
 <tr>
 <td>zo</td>
 <td>opens a fold at the cursor</td>
 </tr>
-
 <tr>
 <td>zO</td>
 <td>opens all folds at the cursor</td>
 </tr>
-
 <tr>
 <td>zm</td>
 <td>increases the foldlevel by one</td>
 </tr>
-
 <tr>
 <td>zM</td>
 <td>closes all open folds</td>
 </tr>
-
 <tr>
 <td>zr</td>
 <td>decreases the foldlevel by one</td>
 </tr>
-
 <tr>
 <td>zR</td>
 <td>decreases the foldlevel to zero &ndash; all folds will be open</td>
 </tr>
-
 <tr>
 <td>zd</td>
 <td>deletes the fold at the cursor</td>
 </tr>
-
 <tr>
 <td>zE</td>
 <td>deletes all folds</td>
 </tr>
-
 <tr>
 <td>[z</td>
 <td>move to start of open fold</td>
 </tr>
-
 <tr>
 <td>]z</td>
 <td>move to end of open fold</td>
 </tr>
-
 <tr>
 <td>zO</td>
 <td>opens all folds at the cursor</td>
 </tr>
 </tbody>
 </table>
-
 <h3 id="configuration">Configuration</h3>
-
 <table>
 <thead>
 <tr>
@@ -167,22 +160,18 @@
 <th>Description</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>:vimfiles</td>
 <td>Show the loaded vim files (vimrc, etc.).</td>
 </tr>
-
 <tr>
 <td>:so $MYVIMRC</td>
 <td>Reload the vimrc</td>
 </tr>
 </tbody>
 </table>
-
 <h3 id="navigation">Navigation</h3>
-
 <table>
 <thead>
 <tr>
@@ -190,177 +179,142 @@
 <th>Description</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>[{</td>
 <td>Jump to beginning of code block</td>
 </tr>
-
 <tr>
 <td>gm</td>
 <td>Jump to middle of the screen</td>
 </tr>
-
 <tr>
 <td>w</td>
 <td>N words foward</td>
 </tr>
-
 <tr>
 <td>W</td>
 <td>N words forward (blank-separated)</td>
 </tr>
-
 <tr>
 <td>{/}</td>
 <td>N paragraphs forward/backward</td>
 </tr>
-
 <tr>
 <td>%</td>
 <td>Goto matching brace</td>
 </tr>
-
 <tr>
-<td>g<movement></td>
+<td>g<!-- raw HTML omitted --></td>
 <td>Move across displayed lines when wrapped</td>
 </tr>
-
 <tr>
 <td>CTRL+^</td>
 <td>Edit alternate file</td>
 </tr>
-
 <tr>
 <td>e</td>
 <td>End of word</td>
 </tr>
-
 <tr>
 <td>0</td>
 <td>First character of line</td>
 </tr>
-
 <tr>
 <td>^</td>
 <td>First non-blank character of line</td>
 </tr>
-
 <tr>
 <td>0</td>
 <td>Last character of line</td>
 </tr>
-
 <tr>
 <td>gm</td>
 <td>Middle of line</td>
 </tr>
-
 <tr>
 <td>g0/^/$</td>
 <td>Beginning/non-blank beginning/end of a wrapped line</td>
 </tr>
-
 <tr>
 <td>f/FX</td>
 <td>Jump to next, previous character X in a line</td>
 </tr>
-
 <tr>
 <td>;</td>
 <td>Repeat last jump</td>
 </tr>
-
 <tr>
 <td>,</td>
 <td>Repeat reverse of last jump</td>
 </tr>
-
 <tr>
 <td>M/H/L</td>
 <td>Jump to middle/top/bottom of the screen</td>
 </tr>
-
 <tr>
 <td>CTRL+f/b</td>
 <td>Jump forward/backward one screen</td>
 </tr>
-
 <tr>
 <td>CTRL+u/d</td>
-<td>Jump forward/backward <sup>1</sup>&frasl;<sub>4</sub> screen</td>
+<td>Jump forward/backward 1/4 screen</td>
 </tr>
-
 <tr>
 <td>CTRL+e/y</td>
 <td>Scroll up/down one line</td>
 </tr>
-
 <tr>
 <td>zt</td>
 <td>Scroll line to top of screen</td>
 </tr>
-
 <tr>
 <td>Ng/G</td>
 <td>Go to line N</td>
 </tr>
-
 <tr>
 <td>gg/G</td>
 <td>First/last line of file</td>
 </tr>
-
 <tr>
 <td>m/M</td>
 <td>Make a file or global mark</td>
 </tr>
-
 <tr>
 <td>&lsquo;X</td>
 <td>Go to beginning of line with mark X</td>
 </tr>
-
 <tr>
 <td>`X</td>
 <td>Go to line and column of mark X</td>
 </tr>
-
 <tr>
 <td>d&rsquo;X</td>
 <td>Delete to mark X</td>
 </tr>
-
 <tr>
 <td>&lsquo;0</td>
 <td>Go to the line you were at when you last exited vim</td>
 </tr>
-
 <tr>
 <td>&lsquo;1-9</td>
 <td>Go to the line you were at when you exited vim the Nth time before</td>
 </tr>
-
 <tr>
-<td>&ldquo;``</td>
+<td>&lsquo;'``</td>
 <td>Go to the beginning/column of the line where you last jumped from</td>
 </tr>
-
 <tr>
-<td>&rsquo;.`.</td>
+<td>&lsquo;.`.</td>
 <td>Go to the beginning/column of the last change</td>
 </tr>
-
 <tr>
 <td>CTRL+o/i</td>
 <td>Go back/forward in the jump list</td>
 </tr>
 </tbody>
 </table>
-
 <h3 id="windows">Windows</h3>
-
 <table>
 <thead>
 <tr>
@@ -368,92 +322,74 @@
 <th>Description</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>CTRL-w + s/v</td>
 <td>Horizontal/Vertical split</td>
 </tr>
-
 <tr>
 <td>CTRL-w + j/k</td>
 <td>Focus up/down to different windows</td>
 </tr>
-
 <tr>
 <td>CTRL-w + J/K</td>
 <td>Move buffer up/down to different windows</td>
 </tr>
-
 <tr>
 <td>CTRL-w + w</td>
 <td>Cycle to a window counter-clockwise</td>
 </tr>
-
 <tr>
 <td>CTRL-w + p</td>
 <td>Focus previous window</td>
 </tr>
-
 <tr>
 <td>CTRL-w + o</td>
 <td>Make the current window the only one</td>
 </tr>
-
 <tr>
 <td>CTRL-w + r</td>
 <td>Rotate windows clockwise</td>
 </tr>
-
 <tr>
 <td>CTRL-w + x</td>
 <td>Exchange window with the next one</td>
 </tr>
-
 <tr>
 <td>CTRL-w + t</td>
 <td>Move window to new tab</td>
 </tr>
-
 <tr>
 <td>CTRL-w + c</td>
 <td>Close window</td>
 </tr>
-
 <tr>
 <td>CTRL-w + &lt;</td>
 <td>Increase vertical window size</td>
 </tr>
-
 <tr>
 <td>CTRL-w + &gt;</td>
 <td>Decrease vertical window size</td>
 </tr>
-
 <tr>
 <td>CTRL-w + -</td>
 <td>Decrease horizontal window size</td>
 </tr>
-
 <tr>
 <td>CTRL-w + +</td>
 <td>Increase horizontal window size</td>
 </tr>
-
 <tr>
 <td>CTRL-w + =</td>
 <td>Make windows equal in size</td>
 </tr>
-
 <tr>
 <td>80 CTRL-w + |</td>
 <td>Make window 80 columns</td>
 </tr>
 </tbody>
 </table>
-
 <h3 id="buffers">Buffers</h3>
-
 <table>
 <thead>
 <tr>
@@ -461,57 +397,46 @@
 <th>Description</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>ls</td>
 <td>List buffers</td>
 </tr>
-
 <tr>
 <td>b1</td>
 <td>Goto first buffer</td>
 </tr>
-
 <tr>
 <td>bn/p</td>
 <td>Goto next/previous buffer</td>
 </tr>
-
 <tr>
 <td>bf/l</td>
 <td>Goto first/last buffer</td>
 </tr>
-
 <tr>
 <td>bd</td>
 <td>Delete buffer</td>
 </tr>
-
 <tr>
 <td>ba</td>
 <td>Open window for every buffer</td>
 </tr>
-
 <tr>
 <td>CTRL+^</td>
 <td>Goto last file you edited</td>
 </tr>
-
 <tr>
 <td>\be</td>
 <td>Buffer explorer</td>
 </tr>
-
 <tr>
 <td>d</td>
 <td>Delete buffer (buffer explorer)</td>
 </tr>
 </tbody>
 </table>
-
 <h3 id="editing">Editing</h3>
-
 <table>
 <thead>
 <tr>
@@ -519,112 +444,90 @@
 <th>Description</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>i/I</td>
 <td>Insert mode at current position/beginning of the line</td>
 </tr>
-
 <tr>
 <td>a/A</td>
 <td>Insert mode at current position+1/end of the line</td>
 </tr>
-
 <tr>
 <td>o/O</td>
 <td>Open new line below/above current line</td>
 </tr>
-
 <tr>
 <td>r</td>
 <td>Replace character and return to insert mode</td>
 </tr>
-
 <tr>
 <td>R</td>
 <td>Replace current text, and press backspace to restore</td>
 </tr>
-
 <tr>
 <td>c3w</td>
 <td>Change 3 words. Changed text is on the unnamed register</td>
 </tr>
-
 <tr>
 <td>x</td>
 <td>Delete current character</td>
 </tr>
-
 <tr>
 <td>dd</td>
 <td>Delete line</td>
 </tr>
-
 <tr>
 <td>J</td>
 <td>Join line</td>
 </tr>
-
 <tr>
 <td>gJ</td>
 <td>Join line without adding space</td>
 </tr>
-
 <tr>
-<td>&lt;&lt;/&gt;&gt;</td>
+<td>&laquo;/&raquo;</td>
 <td>Indent/outdent</td>
 </tr>
-
 <tr>
 <td>Ctrl+t/d</td>
 <td>Indent/outdent in insert mode</td>
 </tr>
-
 <tr>
 <td>(/)/{/}</td>
 <td>Move back/forward one sentence/paragraph</td>
 </tr>
-
 <tr>
 <td>%</td>
 <td>Go to matching brace or control structure depending on the language</td>
 </tr>
-
 <tr>
 <td>vit</td>
 <td>Visually select the contents of a tag. &lsquo;o&rsquo; will switch the insertion point from the beginning/end</td>
 </tr>
-
 <tr>
 <td>s/./&amp;-/g</td>
 <td>Add a dash after every character in the line</td>
 </tr>
-
 <tr>
 <td>@:</td>
 <td>Execute last command</td>
 </tr>
-
 <tr>
 <td>;</td>
 <td>Execute last movement (some, like fc)</td>
 </tr>
-
 <tr>
 <td>;</td>
 <td>Repeat latest f, t, F or T [count] times. See</td>
 </tr>
-
 <tr>
 <td>Ctrl+r/Ctrl+u</td>
 <td>Delete to start of previous word/beginning of the line (insert mode)</td>
 </tr>
 </tbody>
 </table>
-
 <h3 id="search">Search</h3>
-
 <table>
 <thead>
 <tr>
@@ -632,92 +535,74 @@
 <th>Description</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>g#/#/N/n/<em>/g</em></td>
 <td>Matches: prev. partial/prev./next/next current word/next partial match</td>
 </tr>
-
 <tr>
 <td>y?X</td>
 <td>Yank text until previous occurence of subject X</td>
 </tr>
-
 <tr>
 <td>:[range]s[ubstitute]/{pattern}/{string}/[flags] [count]</td>
 <td>Search over range: c (confirm or skip each match), i/I (ignore case, case sensitive), n (show number of matches), p (print matching lines)</td>
 </tr>
-
 <tr>
 <td>:[range]g[lobal]/{pattern}/cmd</td>
 <td>Execute command over range: # (show matches), d (delete lines), y (yank lines)</td>
 </tr>
-
 <tr>
 <td>.,10g/{pattern}/d</td>
 <td>Delete matches from cursor and next 10 lines</td>
 </tr>
-
 <tr>
 <td>.,&lsquo;a+10g/{pattern}/d</td>
 <td>Delete matches from mark [a} and next 10 lines</td>
 </tr>
-
 <tr>
 <td>.,&lsquo;a+10g/{pattern}/#</td>
 <td>Show line numbers from mark [a} and next 10 lines</td>
 </tr>
-
 <tr>
 <td>g/X/p</td>
 <td>Print all lines matching {X}</td>
 </tr>
-
 <tr>
 <td>v/X/#</td>
 <td>Show lines and numbers not matching {X}</td>
 </tr>
-
 <tr>
 <td>:.,&lsquo;a s/{pattern}/{string}</td>
 <td>Search until mark {a}</td>
 </tr>
-
 <tr>
 <td>:g/{subject}/normal O{string}</td>
 <td>Add a line containing {string} above each occurrence of {subject}</td>
 </tr>
-
 <tr>
 <td>:noh</td>
 <td>Turn off highlighting until the next search</td>
 </tr>
-
 <tr>
 <td>d/{search}/e</td>
 <td>Delete until next occurence of {search} inclusive</td>
 </tr>
-
 <tr>
 <td>:g/^$/d</td>
 <td>Delete all blank lines</td>
 </tr>
-
 <tr>
 <td>:g/{search}/+ y</td>
 <td>Yank line after {search}</td>
 </tr>
-
 <tr>
-<td>Ctrl+r+</td>
+<td>Ctrl+r+\</td>
 <td>Paste search pattern in command mode</td>
 </tr>
 </tbody>
 </table>
-
 <h3 id="visual-mode">Visual Mode</h3>
-
 <table>
 <thead>
 <tr>
@@ -725,7 +610,6 @@
 <th>Description</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>o</td>
@@ -733,9 +617,7 @@
 </tr>
 </tbody>
 </table>
-
 <h3 id="command-line-mode">Command-line Mode</h3>
-
 <table>
 <thead>
 <tr>
@@ -743,23 +625,19 @@
 <th>Description</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Ctrl+d</td>
 <td>Autocomplete</td>
 </tr>
-
 <tr>
 <td>Ctrl+r, Ctrl+w\Ctrl+a</td>
 <td>Insert the word\WORD that is under the cursor</td>
 </tr>
-
 <tr>
 <td>q: or q/</td>
 <td>Open command-line window with Ex commands or search history</td>
 </tr>
-
 <tr>
 <td>Ctrl+f</td>
 <td>Switch to command-line window when in command-line mode</td>
@@ -768,17 +646,23 @@
 </table>
 
 		</div>
-		
+		<footer class="post__footer">
+			
 <div class="post__tags tags clearfix">
-	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link" href="/tags/vim/" rel="tag">Vim</a></li>
-		<li class="tags__item"><a class="tags__link" href="/tags/keyboard-shortcuts/" rel="tag">keyboard shortcuts</a></li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/vim/" rel="tag">Vim</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/keyboard-shortcuts/" rel="tag">keyboard shortcuts</a>
+		</li>
 	</ul>
 </div>
-
+		</footer>
 	</article>
-	
+</main>
+
 <div class="authorbox clearfix">
 	<figure class="authorbox__avatar">
 		<img alt="Byron Gerlach avatar" src="/img/avatar_pipe.png" class="avatar" height="90" width="90">
@@ -790,108 +674,16 @@
 		Byron Gerlach is a software developer in Portland, OR.
 	</div>
 </div>
-	
-<nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="/post/dotnet_core_commands/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Dotnet Core Commands</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="/post/resharper_shortcuts/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Resharper Shortcuts</p></a>
-	</div>
-</nav>
 
-	
-</div>
 
-<aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
-	
-<div class="widget-search widget">
-	
-</div>
-	
-<div class="widget-recent widget">
-	<h4 class="widget__title">Recent Posts</h4>
-	<div class="widget__content">
-		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/post/tfs_commands/">TFS Commands</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/reshaper_zensharp_shortcuts/">Resharper Zensharp Shortcuts</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/resharper_shortcuts/">Resharper Shortcuts</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/vim_shortcuts/">Vim Shortcuts</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/dotnet_core_commands/">Dotnet Core Commands</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/ms_sql_tips/">MS SQL Server Tips</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/resharper_mnemonic/">Resharper Mnemonic Shortcuts</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/vs-extensions/">Visual Studio Extensions</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/vs-shortcuts/">Visual Studio Shortcuts</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/benchmark_dotnet/">Benchmark DotNet</a></li>
-		</ul>
-	</div>
-</div>
 
-	
-<div class="widget-categories widget">
-	<h4 class="widget__title">Categories</h4>
-	<div class="widget__content">
-		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/categories/applications">Applications</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/commands-and-shortcuts">Commands-and-Shortcuts</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/static-site-generation">Static-Site-Generation</a></li>
-		</ul>
-	</div>
-</div>
-	
-	
-<div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
-	<div class="widget__content">
-		<a class="widget__link widget__link--taglist" href="/tags/analytics" title="analytics">analytics</a>
-		<a class="widget__link widget__link--taglist" href="/tags/chrome" title="chrome">chrome</a>
-		<a class="widget__link widget__link--taglist" href="/tags/commands" title="commands">commands</a>
-		<a class="widget__link widget__link--taglist" href="/tags/dotnet-core" title="dotnet-core">dotnet-core</a>
-		<a class="widget__link widget__link--taglist" href="/tags/git" title="git">git</a>
-		<a class="widget__link widget__link--taglist" href="/tags/html" title="html">html</a>
-		<a class="widget__link widget__link--taglist" href="/tags/hugo" title="hugo">hugo</a>
-		<a class="widget__link widget__link--taglist" href="/tags/javascript" title="javascript">javascript</a>
-		<a class="widget__link widget__link--taglist" href="/tags/keyboard-shortcuts" title="keyboard-shortcuts">keyboard-shortcuts</a>
-		<a class="widget__link widget__link--taglist" href="/tags/ms-sql-server" title="ms-sql-server">ms-sql-server</a>
-		<a class="widget__link widget__link--taglist" href="/tags/onenote" title="onenote">onenote</a>
-		<a class="widget__link widget__link--taglist" href="/tags/powershell" title="powershell">powershell</a>
-		<a class="widget__link widget__link--taglist" href="/tags/resharper" title="resharper">resharper</a>
-		<a class="widget__link widget__link--taglist" href="/tags/source-control" title="source-control">source-control</a>
-		<a class="widget__link widget__link--taglist" href="/tags/tfs" title="tfs">tfs</a>
-		<a class="widget__link widget__link--taglist" href="/tags/vim" title="vim">vim</a>
-		<a class="widget__link widget__link--taglist" href="/tags/visual-studio" title="visual-studio">visual-studio</a>
-		<a class="widget__link widget__link--taglist" href="/tags/vs-code" title="vs-code">vs-code</a>
-	</div>
-</div>
-	
-<div class="widget-social widget">
-	<h4 class="widget-social__title widget__title">Social</h4>
-	<div class="widget-social__content widget__content">
-		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/@byrongerlach" target="_blank">
-				<svg class="widget-social__link-icon icon-twitter" viewBox="0 0 384 312" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#fff"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
-				<span>Twitter</span>
-			</a>
+			</div>
+			
 		</div>
-		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="" rel="noopener noreferrer" href="https://linkedin.com/in/byron-gerlach-07b98847" target="_blank">
-				<svg class="widget-social__link-icon icon-linkedin" viewBox="0 0 352 352" width="24" height="24" fill="#fff" xmlns="http://www.w3.org/2000/svg"><path d="M0,40v272c0,21.9,18.1,40,40,40h272c21.9,0,40-18.1,40-40V40c0-21.9-18.1-40-40-40H40C18.1,0,0,18.1,0,40z M312,32 c4.6,0,8,3.4,8,8v272c0,4.6-3.4,8-8,8H40c-4.6,0-8-3.4-8-8V40c0-4.6,3.4-8,8-8H312z M59.5,87c0,15.2,12.3,27.5,27.5,27.5 c15.2,0,27.5-12.3,27.5-27.5c0-15.2-12.3-27.5-27.5-27.5C71.8,59.5,59.5,71.8,59.5,87z M187,157h-1v-21h-45v152h47v-75 c0-19.8,3.9-39,28.5-39c24.2,0,24.5,22.4,24.5,40v74h47v-83.5c0-40.9-8.7-72-56.5-72C208.5,132.5,193.3,145.1,187,157z M64,288h47.5 V136H64V288z"/></svg>
-				<span>LinkedIn</span>
-			</a>
-		</div>
-		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/byrongerlach" target="_blank">
-				<svg class="widget-social__link-icon icon-github" viewBox="0 0 384 374" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#fff"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
-				<span>GitHub</span>
-			</a>
-		</div>
-	</div>
-</div>
-</aside>
-	</div>
+			</div>
 		<footer class="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 			<div class="container container-inner">
-				<p class="footer__copyright">&copy; 2018 One Problem Solved. <span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad theme</a>.</span></p>
+				<p class="footer__copyright">&copy; 2021 One Problem Solved. <span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad theme</a>.</span></p>
 			</div>
 		</footer>
 	</div>
@@ -902,5 +694,9 @@
 	});
 </script>
 <script src="/js/prism.js"></script>
+</body>
+</html>
+	</div>
+<script async defer src="/js/menu.js"></script>
 </body>
 </html>

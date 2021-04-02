@@ -3,12 +3,11 @@ title: "TFS Commands"
 date: 2018-09-04T12:00:46-08:00
 tags: ["commands", "TFS", "source control"]
 categories: ["commands and shortcuts"]
-draft: false
+show_summary: false
+draft: true
 ---
 
 ## My Commonly-Used TFS Commands
-
-### Folding in Vim
 
 Shortcut | Description
 ---------|------------

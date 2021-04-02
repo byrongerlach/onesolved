@@ -22,7 +22,11 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
     authorbox = true
     post_navigation = true
     postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
+    post_meta = ["date", "categories", "tags", "translations"] # Order of post meta information
     #dateformat = "2006-01-02" # change the format of dates
+
+[Params.style.vars]
+  highlightColor = "#1D6DBD" # Override highlight color
 
 [Params.widgets]
     search = true # Enable "Search" widget
@@ -51,3 +55,16 @@ suffixes = ["asp"]
 
 metaDataFormat = "json"
 archetypeDir = "archetypes"
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.logo]
+  image = "img/avatar_pipe.png" # Logo image. Path relative to "static"
+#  title = "One Problem Solved" # Logo title, otherwise will use site title
+#  subtitle = "All problems solved? Not quite..."  # Logo subtitle

@@ -1,32 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Commands and Shortcuts on One Problem Solved</title>
+    <title>commands and shortcuts on One Problem Solved</title>
     <link>http://www.onesolved.com/categories/commands-and-shortcuts/</link>
-    <description>Recent content in Commands and Shortcuts on One Problem Solved</description>
+    <description>Recent content in commands and shortcuts on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Sep 2018 12:00:46 -0800</lastBuildDate>
-    
-	<atom:link href="http://www.onesolved.com/categories/commands-and-shortcuts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>TFS Commands</title>
-      <link>http://www.onesolved.com/post/tfs_commands/</link>
-      <pubDate>Tue, 04 Sep 2018 12:00:46 -0800</pubDate>
-      
-      <guid>http://www.onesolved.com/post/tfs_commands/</guid>
-      <description>My Commonly-Used TFS Commands Folding in Vim    Shortcut Description     tf history &amp;ldquo;$//&amp;rdquo; /recursive /version:C~T /format:detailed     Get detail of specific changeset tf history &amp;ldquo;$//&amp;rdquo; /recursive /stopafter:5 /noprompt /format:detailed | Get detail of last 5 check-ins</description>
-    </item>
-    
+    <lastBuildDate>Sat, 01 Sep 2018 10:46:53 -0800</lastBuildDate><atom:link href="http://www.onesolved.com/categories/commands-and-shortcuts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resharper Zensharp Shortcuts</title>
       <link>http://www.onesolved.com/post/reshaper_zensharp_shortcuts/</link>
       <pubDate>Sat, 01 Sep 2018 10:46:53 -0800</pubDate>
       
       <guid>http://www.onesolved.com/post/reshaper_zensharp_shortcuts/</guid>
-      <description>Resharper Zensharp Shortcuts CSharpTypes    Shortcut Description     ppt public property&amp;lt;T&amp;gt;   pM~s public static Method IEnumerable   Mt~ public static static ienumerable    Zensharp Template Examples // C# templates // Sample file space ::= &amp;quot; &amp;quot; cursor ::= &amp;quot;$END$&amp;quot; cursorb ::= &amp;quot;(&amp;quot; cursor &amp;quot;)&amp;quot; // Resharper macros: identifier ::= &amp;lt;name default=&amp;quot;$name$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt; identifier2 ::= &amp;lt;name2 default=&amp;quot;$name2$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt; // // Types: // suggType ::= &amp;lt;type short=&amp;quot;t&amp;quot; expand=&amp;quot;$type$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt; // Primive types: maybeType ::= type | &amp;quot;void&amp;quot; type ::= generic | primType (&amp;quot;?</description>
+      <description>CSharpTypes    Shortcut Description     ppt public property&amp;lt;T&amp;gt;   pM~s public static Method IEnumerable   Mt~ public static static ienumerable    Zensharp Template Examples // C# templates// Sample filespace ::= &amp;quot; &amp;quot;cursor ::= &amp;quot;$END$&amp;quot;cursorb ::= &amp;quot;(&amp;quot; cursor &amp;quot;)&amp;quot;// Resharper macros:identifier ::= &amp;lt;name default=&amp;quot;$name$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt;identifier2 ::= &amp;lt;name2 default=&amp;quot;$name2$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt;//// Types://suggType ::= &amp;lt;type short=&amp;quot;t&amp;quot; expand=&amp;quot;$type$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt;// Primive types:maybeType ::= type | &amp;quot;void&amp;quot;type ::= generic | primType (&amp;quot;?</description>
     </item>
     
     <item>
@@ -35,7 +22,7 @@
       <pubDate>Sat, 04 Aug 2018 10:37:46 -0800</pubDate>
       
       <guid>http://www.onesolved.com/post/resharper_shortcuts/</guid>
-      <description>My Commonly-used Shortcuts    Shortcut Description     Ctrl+Shift+R Refactor this   Ctrl+&amp;#8679; Previous method   Ctrl+Shift+, Recent edits   Ctrl+Bk Last edit   Ctrl+Shift+Q Peek definition   Ctrl+Alt+f View file structure   Ctrl+Shift+F4 Close recent tool window   Ctrl+Alt+Bk Activate recent tool window   Ctrl+PgUp/PgDown Move to next highlight    Not Enabled for My Setup Ctrl+w | select parts of expressions Ctrl+Space | method signatures</description>
+      <description>My Commonly-used Shortcuts    Shortcut Description     Ctrl+Shift+R Refactor this   Ctrl+⇧ Previous method   Ctrl+Shift+, Recent edits   Ctrl+Bk Last edit   Ctrl+Shift+Q Peek definition   Ctrl+Alt+f View file structure   Ctrl+Shift+F4 Close recent tool window   Ctrl+Alt+Bk Activate recent tool window   Ctrl+PgUp/PgDown Move to next highlight    Not Enabled for My Setup Ctrl+w | select parts of expressions Ctrl+Space | method signatures</description>
     </item>
     
     <item>
@@ -53,7 +40,7 @@
       <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://www.onesolved.com/post/dotnet_core_commands/</guid>
-      <description> My Commonly-Used Commands    Shortcut Description     dotnet run Builds and runs the application   dotnet run &amp;ndash;no-build Run without building    </description>
+      <description>My Commonly-Used Commands    Shortcut Description     dotnet run Builds and runs the application   dotnet run &amp;ndash;no-build Run without building    </description>
     </item>
     
     <item>
@@ -63,7 +50,7 @@
       
       <guid>http://www.onesolved.com/post/ms_sql_tips/</guid>
       <description>Get DB Table Size The following will list the size of each table:
-SELECT s.Name AS SchemaName, t.NAME AS TableName, p.rows AS RowCounts, SUM(a.total_pages) * 8 AS TotalSpaceKB, SUM(a.used_pages) * 8 AS UsedSpaceKB, (SUM(a.total_pages) - SUM(a.used_pages)) * 8 AS UnusedSpaceKB FROM sys.tables t INNER JOIN sys.schemas s ON s.schema_id = t.schema_id INNER JOIN sys.indexes i ON t.OBJECT_ID = i.object_id INNER JOIN sys.partitions p ON i.object_id = p.OBJECT_ID AND i.index_id = p.</description>
+SELECT s.Name AS SchemaName,t.NAME AS TableName,p.rows AS RowCounts,SUM(a.total_pages) * 8 AS TotalSpaceKB, SUM(a.used_pages) * 8 AS UsedSpaceKB, (SUM(a.total_pages) - SUM(a.used_pages)) * 8 AS UnusedSpaceKBFROM sys.tables tINNER JOIN sys.schemas s ON s.schema_id = t.schema_idINNER JOIN sys.indexes i ON t.OBJECT_ID = i.object_idINNER JOIN sys.partitions p ON i.object_id = p.OBJECT_ID AND i.index_id = p.</description>
     </item>
     
     <item>
@@ -93,7 +80,7 @@ Displays the file path for the currently open file at the bottom of the editor. 
       
       <guid>http://www.onesolved.com/post/vs-shortcuts/</guid>
       <description>Reference listing: Visual Studio Shortcuts
-Outlines    Shortcut Description     CTRL + m + o Collapse to definitions   Ctrl + m, Ctrl + a Collapse all outlining   Ctrl + m, Ctrl + s Collapse current region   CTRL + m + l Expand all   CTRL + m + p Expand all and disable outlining   CTRL + m + m Collapse/expand the current section    Navigation 2017    Shortcut Description     Ctrl+, # Goto symbol   Ctrl+, m Goto members   Ctrl+, f Goto files   Ctrl+, : Goto line   Ctrl+, t Goto types    Test Explorer 2017    Shortcut Description     Ctrl+r, t Run All Tests In Context   Ctrl+r, a Run All Tests   Ctrl+r, l Repeat Last Run   Ctrl+r, Ctrl+t Debug All Tests In Context   Ctrl+r, Ctrl+a Debug All Tests    Windows    Shortcut Description     Ctrl+\, e View.</description>
+Outlines    Shortcut Description     CTRL + m + o Collapse to definitions   Ctrl + m, Ctrl + a Collapse all outlining   Ctrl + m, Ctrl + s Collapse current region   CTRL + m + l Expand all   CTRL + m + p Expand all and disable outlining   CTRL + m + m Collapse/expand the current section    Navigation 2017    Shortcut Description     Ctrl+, # Goto symbol   Ctrl+, m Goto members   Ctrl+, f Goto files   Ctrl+, : Goto line   Ctrl+, t Goto types    Test Explorer 2017    Shortcut Description     Ctrl+r, t Run All Tests In Context   Ctrl+r, a Run All Tests   Ctrl+r, l Repeat Last Run   Ctrl+r, Ctrl+t Debug All Tests In Context   Ctrl+r, Ctrl+a Debug All Tests    Windows    Shortcut Description     Ctrl+, e View.</description>
     </item>
     
     <item>
@@ -102,7 +89,7 @@ Outlines    Shortcut Description     CTRL + m + o Collapse to definitions   
       <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>http://www.onesolved.com/post/git-commands/</guid>
-      <description> My Commonly-Used Shortcuts    Shortcut Description     git status Show whether the local checkout is in sync with the remote   git pull Get latest changes from the repo   git add Add the changed file to the commit   git push Make a local commit   git push remote Make a remote commit   git ls-tree &amp;ndash;full-tree -r HEAD Show files in repo   git reset Undo all adds   git reset ~HEAD reset to last checkout    </description>
+      <description>My Commonly-Used Shortcuts    Shortcut Description     git status Show whether the local checkout is in sync with the remote   git pull Get latest changes from the repo   git add Add the changed file to the commit   git push Make a local commit   git push remote Make a remote commit   git ls-tree &amp;ndash;full-tree -r HEAD Show files in repo   git reset Undo all adds   git reset ~HEAD reset to last checkout    </description>
     </item>
     
     <item>
@@ -111,7 +98,7 @@ Outlines    Shortcut Description     CTRL + m + o Collapse to definitions   
       <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>http://www.onesolved.com/post/hugo-commands/</guid>
-      <description> My Commonly-Used Hugo Commands    Command Description     hugo new post/my-post.md Create a new post   hugo server Start hugo server   hugo server -D Start hugo server and include draft posts   hugo Build site for publishing    </description>
+      <description>My Commonly-Used Hugo Commands    Command Description     hugo new post/my-post.md Create a new post   hugo server Start hugo server   hugo server -D Start hugo server and include draft posts   hugo Build site for publishing    </description>
     </item>
     
     <item>
@@ -120,7 +107,7 @@ Outlines    Shortcut Description     CTRL + m + o Collapse to definitions   
       <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>http://www.onesolved.com/post/powershell-commands/</guid>
-      <description> My Commonly-Used Powershell Commands    Command Description     Get-ChildItem  -name -recurse *.file_name.* Find files    </description>
+      <description>My Commonly-Used Powershell Commands    Command Description     Get-ChildItem -name -recurse *.file_name.* Find files    </description>
     </item>
     
     <item>
@@ -129,7 +116,7 @@ Outlines    Shortcut Description     CTRL + m + o Collapse to definitions   
       <pubDate>Sun, 17 Sep 2017 14:40:32 -0700</pubDate>
       
       <guid>http://www.onesolved.com/post/onenote_shortcuts/</guid>
-      <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl+G Switch notebook   Ctrl+Shift+A Select current page   Ctrl+Shift+T Move cursor to the page title   Alt + Shift + &amp;#8679; Move the selected page tab up   Alt+PgUp Go to the first page   Ctrl+PgUp/PgDown Move to next page   Shift+F10 Bring up the context menu for any note, tab, or any other object that currently has focus.</description>
+      <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl+G Switch notebook   Ctrl+Shift+A Select current page   Ctrl+Shift+T Move cursor to the page title   Alt + Shift + ⇧ Move the selected page tab up   Alt+PgUp Go to the first page   Ctrl+PgUp/PgDown Move to next page   Shift+F10 Bring up the context menu for any note, tab, or any other object that currently has focus.</description>
     </item>
     
     <item>
@@ -138,7 +125,7 @@ Outlines    Shortcut Description     CTRL + m + o Collapse to definitions   
       <pubDate>Sat, 22 Jul 2017 15:31:32 -0700</pubDate>
       
       <guid>http://www.onesolved.com/post/vs-code-shortcuts/</guid>
-      <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl + K + S List all shortcuts   Alt + &amp;#8679; Move line up.   Alt + Shift + &amp;#8679; Copy above.   Ctrl + Shift + L Put multi-cursor at all occurences of current selections   Ctrl + C/X Copy/Cut line   Ctrl + Shift + K Delete line   Ctrl + (Shift) + Enter Insert line (above) or below   Ctrl + (K) + Shift + [/] Fold/Unfold (sub) region   Ctrl + Shift + E Focus on file explorer   Ctrl + ` Focus on Terminal   Alt + z Toggle word-wrap   Ctrl+K V Markdown side-by-side preview   Collapse all CTRL + M + O   Expand all CTRL + M + L   Expand all and disable outlining CTRL + M + P   Collapse/expand the current section CTRL + M + M   Ctrl + P Find by file name   Ctrl+Shift+[ Fold (collapse) region editor.</description>
+      <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl + K + S List all shortcuts   Alt + ⇧ Move line up.   Alt + Shift + ⇧ Copy above.   Ctrl + Shift + L Put multi-cursor at all occurences of current selections   Ctrl + C/X Copy/Cut line   Ctrl + Shift + K Delete line   Ctrl + (Shift) + Enter Insert line (above) or below   Ctrl + (K) + Shift + [/] Fold/Unfold (sub) region   Ctrl + Shift + E Focus on file explorer   Ctrl + ` Focus on Terminal   Alt + z Toggle word-wrap   Ctrl+K V Markdown side-by-side preview   Collapse all CTRL + M + O   Expand all CTRL + M + L   Expand all and disable outlining CTRL + M + P   Collapse/expand the current section CTRL + M + M   Ctrl + P Find by file name   Ctrl+Shift+[ Fold (collapse) region editor.</description>
     </item>
     
   </channel>

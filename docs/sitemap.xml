@@ -1,304 +1,153 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>http://www.onesolved.com/post/tfs_commands/</loc>
-    <lastmod>2018-09-04T12:00:46-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/reshaper_zensharp_shortcuts/</loc>
-    <lastmod>2018-09-01T10:46:53-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/resharper_shortcuts/</loc>
-    <lastmod>2018-08-04T10:37:46-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/vim_shortcuts/</loc>
-    <lastmod>2018-07-16T10:37:46-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/dotnet_core_commands/</loc>
-    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/ms_sql_tips/</loc>
-    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/resharper_mnemonic/</loc>
-    <lastmod>2018-01-09T10:37:46-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/vs-extensions/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/vs-shortcuts/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/benchmark_dotnet/</loc>
-    <lastmod>2017-11-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/hugo-setup/</loc>
-    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/git-commands/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/hugo-commands/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/powershell-commands/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/onenote_shortcuts/</loc>
-    <lastmod>2017-09-17T14:40:32-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/prismjs/</loc>
-    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/vs-code-shortcuts/</loc>
-    <lastmod>2017-07-22T15:31:32-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/chrome-tips/</loc>
-    <lastmod>2017-07-14T21:04:57-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/app_config/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/chsarp_locks/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/csharp_comparisons/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/csharp_reference_passing/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/deleting_unneccessary_vs_build_files/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/ews_api/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/mlo_shortcuts/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/remote_desktop_shortcuts/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/several_benchmarks/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/unit_testing_with_ava/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/post/visual_studio_templates/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/analytics/</loc>
-    <lastmod>2017-11-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/categories/applications/</loc>
-    <lastmod>2017-07-14T21:04:57-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/archetypes/</loc>
-    <priority>0</priority>
-  </url>
-  
   <url>
     <loc>http://www.onesolved.com/categories/</loc>
-    <lastmod>2017-07-14T21:04:57-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/chrome/</loc>
-    <lastmod>2017-07-14T21:04:57-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/commands/</loc>
-    <lastmod>2018-09-04T12:00:46-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2018-09-01T10:46:53-08:00</lastmod>
+  </url><url>
     <loc>http://www.onesolved.com/categories/commands-and-shortcuts/</loc>
-    <lastmod>2018-09-04T12:00:46-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/dotnet-core/</loc>
-    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/git/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/html/</loc>
-    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/hugo/</loc>
-    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/javascript/</loc>
-    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/json/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2018-09-01T10:46:53-08:00</lastmod>
+  </url><url>
     <loc>http://www.onesolved.com/tags/keyboard-shortcuts/</loc>
     <lastmod>2018-09-01T10:46:53-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/ms-sql-server/</loc>
-    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.onesolved.com/</loc>
-    <lastmod>2018-09-04T12:00:46-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/onenote/</loc>
-    <lastmod>2017-09-17T14:40:32-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2018-09-01T10:46:53-08:00</lastmod>
+  </url><url>
     <loc>http://www.onesolved.com/post/</loc>
-    <lastmod>2018-09-04T12:00:46-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/powershell/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2018-09-01T10:46:53-08:00</lastmod>
+  </url><url>
     <loc>http://www.onesolved.com/tags/resharper/</loc>
     <lastmod>2018-09-01T10:46:53-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/series/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/source-control/</loc>
-    <lastmod>2018-09-04T12:00:46-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/categories/static-site-generation/</loc>
-    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://www.onesolved.com/post/reshaper_zensharp_shortcuts/</loc>
+    <lastmod>2018-09-01T10:46:53-08:00</lastmod>
+  </url><url>
     <loc>http://www.onesolved.com/tags/</loc>
-    <lastmod>2017-11-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.onesolved.com/tags/tfs/</loc>
-    <lastmod>2018-09-04T12:00:46-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2018-09-01T10:46:53-08:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/resharper_shortcuts/</loc>
+    <lastmod>2018-08-04T10:37:46-08:00</lastmod>
+  </url><url>
     <loc>http://www.onesolved.com/tags/vim/</loc>
     <lastmod>2018-07-16T10:37:46-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://www.onesolved.com/post/vim_shortcuts/</loc>
+    <lastmod>2018-07-16T10:37:46-08:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/tags/commands/</loc>
+    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/tags/dotnet-core/</loc>
+    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/dotnet_core_commands/</loc>
+    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/tags/ms-sql-server/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/ms_sql_tips/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/resharper_mnemonic/</loc>
+    <lastmod>2018-01-09T10:37:46-08:00</lastmod>
+  </url><url>
     <loc>http://www.onesolved.com/tags/visual-studio/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://www.onesolved.com/post/vs-extensions/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/vs-shortcuts/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/tags/analytics/</loc>
+    <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/benchmark_dotnet/</loc>
+    <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/tags/hugo/</loc>
+    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/hugo-setup/</loc>
+    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/categories/static-site-generation/</loc>
+    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/tags/git/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/git-commands/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/hugo-commands/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/tags/powershell/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/powershell-commands/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/tags/onenote/</loc>
+    <lastmod>2017-09-17T14:40:32-07:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/onenote_shortcuts/</loc>
+    <lastmod>2017-09-17T14:40:32-07:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/tags/html/</loc>
+    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/tags/javascript/</loc>
+    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/prismjs/</loc>
+    <lastmod>2017-07-25T15:18:15-07:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/vs-code-shortcuts/</loc>
+    <lastmod>2017-07-22T15:31:32-07:00</lastmod>
+  </url><url>
     <loc>http://www.onesolved.com/tags/vs-code/</loc>
     <lastmod>2017-07-22T15:31:32-07:00</lastmod>
-    <priority>0</priority>
+  </url><url>
+    <loc>http://www.onesolved.com/categories/applications/</loc>
+    <lastmod>2017-07-14T21:04:57-07:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/tags/chrome/</loc>
+    <lastmod>2017-07-14T21:04:57-07:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/chrome-tips/</loc>
+    <lastmod>2017-07-14T21:04:57-07:00</lastmod>
+  </url><url>
+    <loc>http://www.onesolved.com/post/app_config/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/post/chsarp_locks/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/post/csharp_comparisons/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/post/csharp_reference_passing/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/post/deleting_unneccessary_vs_build_files/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/post/ews_api/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/post/mlo_shortcuts/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/post/remote_desktop_shortcuts/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/post/several_benchmarks/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/post/unit_testing_with_ava/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/post/visual_studio_templates/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/archetypes/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/json/</loc>
+  </url><url>
+    <loc>http://www.onesolved.com/series/</loc>
   </url>
-  
 </urlset>

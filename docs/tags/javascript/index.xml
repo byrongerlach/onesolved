@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javascript on One Problem Solved</title>
+    <title>javascript on One Problem Solved</title>
     <link>http://www.onesolved.com/tags/javascript/</link>
-    <description>Recent content in Javascript on One Problem Solved</description>
+    <description>Recent content in javascript on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jul 2017 15:18:15 -0700</lastBuildDate>
-    
-	<atom:link href="http://www.onesolved.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 25 Jul 2017 15:18:15 -0700</lastBuildDate><atom:link href="http://www.onesolved.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Syntax Highlighting With Prismjs</title>
       <link>http://www.onesolved.com/post/prismjs/</link>
@@ -21,7 +17,8 @@
 Prism allows you to choose only the languages and features you want when you download it, so you can minimize its footprint.
 Basic Markdown code fences with a language annotation do basic highlighting.
 Here is the Markdown:
- ``` fsharp // Add some numbers let addTwo a b : a + b addTwo 1 2 | addTwo 3 | addTwo 4 // Get distinct items let myList : [ &#34;</description>
+Here&amp;rsquo;s the result:
+// Add some numbers let addTwo a b : a + b addTwo 1 2 |&amp;gt; addTwo 3 |&amp;gt; addTwo 4 // Get distinct items let myList : [ &amp;#34;a&amp;#34;; &amp;#34;z&amp;#34;; &amp;#34;z&amp;#34;; ] myList |&amp;gt; Seq.</description>
     </item>
     
   </channel>
