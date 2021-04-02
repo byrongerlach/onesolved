@@ -11,7 +11,7 @@
 <meta property="og:description" content="Get DB Table Size The following will list the size of each table:
 SELECT s.Name AS SchemaName,t.NAME AS TableName,p.rows AS RowCounts,SUM(a.total_pages) * 8 AS TotalSpaceKB, SUM(a.used_pages) * 8 AS UsedSpaceKB, (SUM(a.total_pages) - SUM(a.used_pages)) * 8 AS UnusedSpaceKBFROM sys.tables tINNER JOIN sys.schemas s ON s.schema_id = t.schema_idINNER JOIN sys.indexes i ON t.OBJECT_ID = i.object_idINNER JOIN sys.partitions p ON i.object_id = p.OBJECT_ID AND i.index_id = p." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.onesolved.com/post/ms_sql_tips/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="http://onesolved.com/post/ms_sql_tips/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2018-01-14T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2018-01-14T00:00:00&#43;00:00" />
 

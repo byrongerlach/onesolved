@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Json on One Problem Solved</title>
-    <link>http://www.onesolved.com/json/</link>
+    <link>http://onesolved.com/json/</link>
     <description>Recent content in Json on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://www.onesolved.com/json/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://onesolved.com/json/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

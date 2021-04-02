@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>One Problem Solved</title>
-    <link>http://www.onesolved.com/</link>
+    <link>http://onesolved.com/</link>
     <description>Recent content on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Sep 2018 10:46:53 -0800</lastBuildDate><atom:link href="http://www.onesolved.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Sep 2018 10:46:53 -0800</lastBuildDate><atom:link href="http://onesolved.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resharper Zensharp Shortcuts</title>
-      <link>http://www.onesolved.com/post/reshaper_zensharp_shortcuts/</link>
+      <link>http://onesolved.com/post/reshaper_zensharp_shortcuts/</link>
       <pubDate>Sat, 01 Sep 2018 10:46:53 -0800</pubDate>
       
-      <guid>http://www.onesolved.com/post/reshaper_zensharp_shortcuts/</guid>
+      <guid>http://onesolved.com/post/reshaper_zensharp_shortcuts/</guid>
       <description>CSharpTypes    Shortcut Description     ppt public property&amp;lt;T&amp;gt;   pM~s public static Method IEnumerable   Mt~ public static static ienumerable    Zensharp Template Examples // C# templates// Sample filespace ::= &amp;quot; &amp;quot;cursor ::= &amp;quot;$END$&amp;quot;cursorb ::= &amp;quot;(&amp;quot; cursor &amp;quot;)&amp;quot;// Resharper macros:identifier ::= &amp;lt;name default=&amp;quot;$name$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt;identifier2 ::= &amp;lt;name2 default=&amp;quot;$name2$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt;//// Types://suggType ::= &amp;lt;type short=&amp;quot;t&amp;quot; expand=&amp;quot;$type$&amp;quot; macros = &amp;quot;complete()&amp;quot;&amp;gt;// Primive types:maybeType ::= type | &amp;quot;void&amp;quot;type ::= generic | primType (&amp;quot;?</description>
     </item>
     
     <item>
       <title>Resharper Shortcuts</title>
-      <link>http://www.onesolved.com/post/resharper_shortcuts/</link>
+      <link>http://onesolved.com/post/resharper_shortcuts/</link>
       <pubDate>Sat, 04 Aug 2018 10:37:46 -0800</pubDate>
       
-      <guid>http://www.onesolved.com/post/resharper_shortcuts/</guid>
+      <guid>http://onesolved.com/post/resharper_shortcuts/</guid>
       <description>My Commonly-used Shortcuts    Shortcut Description     Ctrl+Shift+R Refactor this   Ctrl+⇧ Previous method   Ctrl+Shift+, Recent edits   Ctrl+Bk Last edit   Ctrl+Shift+Q Peek definition   Ctrl+Alt+f View file structure   Ctrl+Shift+F4 Close recent tool window   Ctrl+Alt+Bk Activate recent tool window   Ctrl+PgUp/PgDown Move to next highlight    Not Enabled for My Setup Ctrl+w | select parts of expressions Ctrl+Space | method signatures</description>
     </item>
     
     <item>
       <title>Vim Shortcuts</title>
-      <link>http://www.onesolved.com/post/vim_shortcuts/</link>
+      <link>http://onesolved.com/post/vim_shortcuts/</link>
       <pubDate>Mon, 16 Jul 2018 10:37:46 -0800</pubDate>
       
-      <guid>http://www.onesolved.com/post/vim_shortcuts/</guid>
+      <guid>http://onesolved.com/post/vim_shortcuts/</guid>
       <description>My Commonly-Used Shortcuts Folding in Vim    Shortcut Description     zf#j creates a fold from the cursor down # lines   zf/string creates a fold from the cursor to string   zj moves the cursor to the next fold   zk moves the cursor to the previous fold   zo opens a fold at the cursor   zO opens all folds at the cursor   zm increases the foldlevel by one   zM closes all open folds   zr decreases the foldlevel by one   zR decreases the foldlevel to zero &amp;ndash; all folds will be open   zd deletes the fold at the cursor   zE deletes all folds   [z move to start of open fold   ]z move to end of open fold   zO opens all folds at the cursor    Configuration    Shortcut Description     :vimfiles Show the loaded vim files (vimrc, etc.</description>
     </item>
     
     <item>
       <title>Dotnet Core Commands</title>
-      <link>http://www.onesolved.com/post/dotnet_core_commands/</link>
+      <link>http://onesolved.com/post/dotnet_core_commands/</link>
       <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/dotnet_core_commands/</guid>
+      <guid>http://onesolved.com/post/dotnet_core_commands/</guid>
       <description>My Commonly-Used Commands    Shortcut Description     dotnet run Builds and runs the application   dotnet run &amp;ndash;no-build Run without building    </description>
     </item>
     
     <item>
       <title>MS SQL Server Tips</title>
-      <link>http://www.onesolved.com/post/ms_sql_tips/</link>
+      <link>http://onesolved.com/post/ms_sql_tips/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/ms_sql_tips/</guid>
+      <guid>http://onesolved.com/post/ms_sql_tips/</guid>
       <description>Get DB Table Size The following will list the size of each table:
 SELECT s.Name AS SchemaName,t.NAME AS TableName,p.rows AS RowCounts,SUM(a.total_pages) * 8 AS TotalSpaceKB, SUM(a.used_pages) * 8 AS UsedSpaceKB, (SUM(a.total_pages) - SUM(a.used_pages)) * 8 AS UnusedSpaceKBFROM sys.tables tINNER JOIN sys.schemas s ON s.schema_id = t.schema_idINNER JOIN sys.indexes i ON t.OBJECT_ID = i.object_idINNER JOIN sys.partitions p ON i.object_id = p.OBJECT_ID AND i.index_id = p.</description>
     </item>
     
     <item>
       <title>Resharper Mnemonic Shortcuts</title>
-      <link>http://www.onesolved.com/post/resharper_mnemonic/</link>
+      <link>http://onesolved.com/post/resharper_mnemonic/</link>
       <pubDate>Tue, 09 Jan 2018 10:37:46 -0800</pubDate>
       
-      <guid>http://www.onesolved.com/post/resharper_mnemonic/</guid>
+      <guid>http://onesolved.com/post/resharper_mnemonic/</guid>
       <description>Resharper Mnemonic Shortcuts CsharpTypes    Shortcut Description     b bool   c char   f float   by byte   d double   i int   m decimal   s string   l long   u uint   g System.Guid   t System.DateTime   sb System.Text.StringBuilder    CSharpStructureTemplates    Shortcut Description     c public class   a public abstract class   C public static class   i public interface   s public struct   e public enum    CSharpMemberTemplates    Shortcut Description     vr A readonly field of type   V private static   n A field of type FixedType initialized to the default value.</description>
     </item>
     
     <item>
       <title>Visual Studio Extensions</title>
-      <link>http://www.onesolved.com/post/vs-extensions/</link>
+      <link>http://onesolved.com/post/vs-extensions/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/vs-extensions/</guid>
+      <guid>http://onesolved.com/post/vs-extensions/</guid>
       <description>Here&amp;rsquo;s the Visual Studio extensions I use:
 File Path On Footer (https://marketplace.visualstudio.com/items?itemName=ShemeerNS.FilePathOnFooter)[File Path On Footer]
 Displays the file path for the currently open file at the bottom of the editor. This helps me to differentiate between different VS instances open on different branches.</description>
@@ -75,20 +75,20 @@ Displays the file path for the currently open file at the bottom of the editor. 
     
     <item>
       <title>Visual Studio Shortcuts</title>
-      <link>http://www.onesolved.com/post/vs-shortcuts/</link>
+      <link>http://onesolved.com/post/vs-shortcuts/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/vs-shortcuts/</guid>
+      <guid>http://onesolved.com/post/vs-shortcuts/</guid>
       <description>Reference listing: Visual Studio Shortcuts
 Outlines    Shortcut Description     CTRL + m + o Collapse to definitions   Ctrl + m, Ctrl + a Collapse all outlining   Ctrl + m, Ctrl + s Collapse current region   CTRL + m + l Expand all   CTRL + m + p Expand all and disable outlining   CTRL + m + m Collapse/expand the current section    Navigation 2017    Shortcut Description     Ctrl+, # Goto symbol   Ctrl+, m Goto members   Ctrl+, f Goto files   Ctrl+, : Goto line   Ctrl+, t Goto types    Test Explorer 2017    Shortcut Description     Ctrl+r, t Run All Tests In Context   Ctrl+r, a Run All Tests   Ctrl+r, l Repeat Last Run   Ctrl+r, Ctrl+t Debug All Tests In Context   Ctrl+r, Ctrl+a Debug All Tests    Windows    Shortcut Description     Ctrl+, e View.</description>
     </item>
     
     <item>
       <title>Benchmark DotNet</title>
-      <link>http://www.onesolved.com/post/benchmark_dotnet/</link>
+      <link>http://onesolved.com/post/benchmark_dotnet/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/benchmark_dotnet/</guid>
+      <guid>http://onesolved.com/post/benchmark_dotnet/</guid>
       <description>Method-level Benchmarking Using BenchmarkDotNet Here is an example of method-level benchmarking using BenchmarkDotNet.
 The BenchmarkDotNet site provides detailed instructions for setup.
 The following example shows a basic setup to benchmark two C# methods.
@@ -99,10 +99,10 @@ using System; using BenchmarkDotNet.</description>
     
     <item>
       <title>Hugo Setup</title>
-      <link>http://www.onesolved.com/post/hugo-setup/</link>
+      <link>http://onesolved.com/post/hugo-setup/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/hugo-setup/</guid>
+      <guid>http://onesolved.com/post/hugo-setup/</guid>
       <description>My Hugo Setup Here&amp;rsquo;s how I set up this site using the Hugo static site generator.
 Themes There’s many available themes. I used the Mainroad theme, but I changed the colors.
 Composing Posts  To add a post, you just add a new markdown file with the correct metadata section at the top, and then run Hugo again to generate your static site.
@@ -111,46 +111,46 @@ Here’s an example of what an actual posts look like written in markdown.</desc
     
     <item>
       <title>Git Commands</title>
-      <link>http://www.onesolved.com/post/git-commands/</link>
+      <link>http://onesolved.com/post/git-commands/</link>
       <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/git-commands/</guid>
+      <guid>http://onesolved.com/post/git-commands/</guid>
       <description>My Commonly-Used Shortcuts    Shortcut Description     git status Show whether the local checkout is in sync with the remote   git pull Get latest changes from the repo   git add Add the changed file to the commit   git push Make a local commit   git push remote Make a remote commit   git ls-tree &amp;ndash;full-tree -r HEAD Show files in repo   git reset Undo all adds   git reset ~HEAD reset to last checkout    </description>
     </item>
     
     <item>
       <title>Hugo Commands</title>
-      <link>http://www.onesolved.com/post/hugo-commands/</link>
+      <link>http://onesolved.com/post/hugo-commands/</link>
       <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/hugo-commands/</guid>
+      <guid>http://onesolved.com/post/hugo-commands/</guid>
       <description>My Commonly-Used Hugo Commands    Command Description     hugo new post/my-post.md Create a new post   hugo server Start hugo server   hugo server -D Start hugo server and include draft posts   hugo Build site for publishing    </description>
     </item>
     
     <item>
       <title>Powershell Commands</title>
-      <link>http://www.onesolved.com/post/powershell-commands/</link>
+      <link>http://onesolved.com/post/powershell-commands/</link>
       <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/powershell-commands/</guid>
+      <guid>http://onesolved.com/post/powershell-commands/</guid>
       <description>My Commonly-Used Powershell Commands    Command Description     Get-ChildItem -name -recurse *.file_name.* Find files    </description>
     </item>
     
     <item>
       <title>OneNote Keyboard Shortcuts</title>
-      <link>http://www.onesolved.com/post/onenote_shortcuts/</link>
+      <link>http://onesolved.com/post/onenote_shortcuts/</link>
       <pubDate>Sun, 17 Sep 2017 14:40:32 -0700</pubDate>
       
-      <guid>http://www.onesolved.com/post/onenote_shortcuts/</guid>
+      <guid>http://onesolved.com/post/onenote_shortcuts/</guid>
       <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl+G Switch notebook   Ctrl+Shift+A Select current page   Ctrl+Shift+T Move cursor to the page title   Alt + Shift + ⇧ Move the selected page tab up   Alt+PgUp Go to the first page   Ctrl+PgUp/PgDown Move to next page   Shift+F10 Bring up the context menu for any note, tab, or any other object that currently has focus.</description>
     </item>
     
     <item>
       <title>Syntax Highlighting With Prismjs</title>
-      <link>http://www.onesolved.com/post/prismjs/</link>
+      <link>http://onesolved.com/post/prismjs/</link>
       <pubDate>Tue, 25 Jul 2017 15:18:15 -0700</pubDate>
       
-      <guid>http://www.onesolved.com/post/prismjs/</guid>
+      <guid>http://onesolved.com/post/prismjs/</guid>
       <description>I use Prismjs for code syntax highlighting on this site. I write pages in Markdown and I use Hugo to generate the site.
 Prism allows you to choose only the languages and features you want when you download it, so you can minimize its footprint.
 Basic Markdown code fences with a language annotation do basic highlighting.
@@ -161,19 +161,19 @@ Here&amp;rsquo;s the result:
     
     <item>
       <title>Visual Studio Code Keyboard Shortcuts</title>
-      <link>http://www.onesolved.com/post/vs-code-shortcuts/</link>
+      <link>http://onesolved.com/post/vs-code-shortcuts/</link>
       <pubDate>Sat, 22 Jul 2017 15:31:32 -0700</pubDate>
       
-      <guid>http://www.onesolved.com/post/vs-code-shortcuts/</guid>
+      <guid>http://onesolved.com/post/vs-code-shortcuts/</guid>
       <description>My Commonly-Used Shortcuts    Shortcut Description     Ctrl + K + S List all shortcuts   Alt + ⇧ Move line up.   Alt + Shift + ⇧ Copy above.   Ctrl + Shift + L Put multi-cursor at all occurences of current selections   Ctrl + C/X Copy/Cut line   Ctrl + Shift + K Delete line   Ctrl + (Shift) + Enter Insert line (above) or below   Ctrl + (K) + Shift + [/] Fold/Unfold (sub) region   Ctrl + Shift + E Focus on file explorer   Ctrl + ` Focus on Terminal   Alt + z Toggle word-wrap   Ctrl+K V Markdown side-by-side preview   Collapse all CTRL + M + O   Expand all CTRL + M + L   Expand all and disable outlining CTRL + M + P   Collapse/expand the current section CTRL + M + M   Ctrl + P Find by file name   Ctrl+Shift+[ Fold (collapse) region editor.</description>
     </item>
     
     <item>
       <title>Chrome Tips</title>
-      <link>http://www.onesolved.com/post/chrome-tips/</link>
+      <link>http://onesolved.com/post/chrome-tips/</link>
       <pubDate>Fri, 14 Jul 2017 21:04:57 -0700</pubDate>
       
-      <guid>http://www.onesolved.com/post/chrome-tips/</guid>
+      <guid>http://onesolved.com/post/chrome-tips/</guid>
       <description>Chrome Tips How to Delete a Cache for a Site Start developer tools with F12, then long-press on the reload button. You&amp;rsquo;ll get an option for &amp;ldquo;Empty Cache and Hard Reload&amp;rdquo;.
 Clear out favicons for all sites (AFAIK, there&amp;rsquo;s no way to clear them for an individual site):
 After you&amp;rsquo;ve cleared you cache.
@@ -184,29 +184,29 @@ in:
     
     <item>
       <title></title>
-      <link>http://www.onesolved.com/post/app_config/</link>
+      <link>http://onesolved.com/post/app_config/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/app_config/</guid>
+      <guid>http://onesolved.com/post/app_config/</guid>
       <description>supportedRuntime defines the supported .NET runtimes:
 Find all &amp;ldquo;supportedruntime&amp;rdquo;, Subfolders, Find Results 1, &amp;ldquo;Entire Solution&amp;rdquo;, &amp;ldquo;*.config&amp;rdquo;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.onesolved.com/post/chsarp_locks/</link>
+      <link>http://onesolved.com/post/chsarp_locks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/chsarp_locks/</guid>
+      <guid>http://onesolved.com/post/chsarp_locks/</guid>
       <description>Why use locks? </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.onesolved.com/post/csharp_comparisons/</link>
+      <link>http://onesolved.com/post/csharp_comparisons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/csharp_comparisons/</guid>
+      <guid>http://onesolved.com/post/csharp_comparisons/</guid>
       <description>Comparing Things in C# Comparing Reference Types Common ways to compare reference types in C# are:
  The &amp;ldquo;==&amp;rdquo; operator .Equals Comparator  The == operator MSDN: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/equality-comparison-operator
 &amp;ldquo;For predefined value types, the equality operator (==) returns true if the values of its operands are equal, false otherwise. For reference types other than string, == returns true if its two operands refer to the same object. For the string type, == compares the values of the strings.</description>
@@ -214,19 +214,19 @@ Find all &amp;ldquo;supportedruntime&amp;rdquo;, Subfolders, Find Results 1, &am
     
     <item>
       <title></title>
-      <link>http://www.onesolved.com/post/csharp_reference_passing/</link>
+      <link>http://onesolved.com/post/csharp_reference_passing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/csharp_reference_passing/</guid>
+      <guid>http://onesolved.com/post/csharp_reference_passing/</guid>
       <description>C# References and parameter passing    Case a changed b.A changed hashcode changed hashcode changed a hashcode == b.A hashcode     Modify by ref yes yes yes no yes   Modify by out yes yes yes no no    </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.onesolved.com/post/deleting_unneccessary_vs_build_files/</link>
+      <link>http://onesolved.com/post/deleting_unneccessary_vs_build_files/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/deleting_unneccessary_vs_build_files/</guid>
+      <guid>http://onesolved.com/post/deleting_unneccessary_vs_build_files/</guid>
       <description>Clearing space from builds
 Tuesday, January 20, 2015 10:43 AM
 Here is a list of files you can clean before builds for C++:
@@ -235,10 +235,10 @@ I&amp;rsquo;m not only a C# moderator but also a C++ user :} The ipch directory 
     
     <item>
       <title></title>
-      <link>http://www.onesolved.com/post/ews_api/</link>
+      <link>http://onesolved.com/post/ews_api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/ews_api/</guid>
+      <guid>http://onesolved.com/post/ews_api/</guid>
       <description>Code Samples Microsoft has examples for Exchange Web Services:
 Exchange Code Samples
 Deleting Items
@@ -249,29 +249,29 @@ Query Syntax</description>
     
     <item>
       <title></title>
-      <link>http://www.onesolved.com/post/mlo_shortcuts/</link>
+      <link>http://onesolved.com/post/mlo_shortcuts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/mlo_shortcuts/</guid>
+      <guid>http://onesolved.com/post/mlo_shortcuts/</guid>
       <description>Keyboard Shortcuts The MLO team pays special attention to accelerating application usage. There are keyboard shortcuts for frequently used operations. The most important keyboard shortcuts are listed below. Note: Not all keyboard shortcuts are listed here. Please investigate the application menu, local menus, and hints to find out the shortcut for the operation you need. Shortcut	Action or command Alt+F1	Properties pane open/close Alt+1	Toggle between Task List and Task Notes (Contexts List and Contexts Notes) Alt+2	General properties section open/close Alt+3	Timing &amp;amp; Reminder properties section open/close Alt+4	Effort properties section open/close Alt+5	Project properties section open/close Alt+6	Task Statistics properties section open/close F6	Collapse entire outline or To-Do lists F7	Expand entire outline or To-Do list Alt+Shift+Left	Rearrange tasks in the outline Alt+Shift+Right Alt+Shift+Up Alt+Shift+Down Ctrl+Up	Select next/previous visible task in Outline/To-Do without focusing this task list.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.onesolved.com/post/remote_desktop_shortcuts/</link>
+      <link>http://onesolved.com/post/remote_desktop_shortcuts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/remote_desktop_shortcuts/</guid>
+      <guid>http://onesolved.com/post/remote_desktop_shortcuts/</guid>
       <description>You can use the commands listed http://technet.microsoft.com/en-us/library/cc725766%28WS.10%29.aspx
 here to manage Terminal Server connections. query session /server:is probably the first one you want. These all require remote procedure call, which is part and parcel with CIFS/SMB (the IPC$ share). Check that the RPC service is enabled first. Second, you can&amp;rsquo;t/shouldn&amp;rsquo;t (depending on network configuration) run these services over anything but the local network. If you&amp;rsquo;re trying to do this sort of management over the Internet, you should be using a VPN or some creative SSH tunneling.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.onesolved.com/post/several_benchmarks/</link>
+      <link>http://onesolved.com/post/several_benchmarks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/several_benchmarks/</guid>
+      <guid>http://onesolved.com/post/several_benchmarks/</guid>
       <description>// * Summary *
 BenchmarkDotNet=v0.10.10, OS=Windows 7 SP1 (6.1.7601.0) Processor=Intel Xeon CPU X5670 2.93GHzIntel Xeon CPU X5670 2.93GHz, ProcessorCou nt=24 Frequency=2863828 Hz, Resolution=349.1830 ns, Timer=TSC [Host] : .NET Framework 4.6.1 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.6. 1099.0 [AttachedDebugger] DefaultJob : .NET Framework 4.6.1 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.6. 1099.0
  Method | Mean | Error | StdDev | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; |&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;:|&amp;mdash;&amp;mdash;&amp;mdash;-:|&amp;mdash;&amp;mdash;&amp;mdash;-:| RunCompiledRegex | 787.3389 ns | 3.4260 ns | 3.2046 ns | RunNonCompiledRegex | 1,444.</description>
@@ -279,10 +279,10 @@ BenchmarkDotNet=v0.10.10, OS=Windows 7 SP1 (6.1.7601.0) Processor=Intel Xeon CPU
     
     <item>
       <title></title>
-      <link>http://www.onesolved.com/post/unit_testing_with_ava/</link>
+      <link>http://onesolved.com/post/unit_testing_with_ava/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/unit_testing_with_ava/</guid>
+      <guid>http://onesolved.com/post/unit_testing_with_ava/</guid>
       <description>Unit Testing With AVA JS To start from zero, run the instructions here:
 https://github.com/avajs/ava#usage
 npm install --global ava
@@ -291,10 +291,10 @@ ava --init</description>
     
     <item>
       <title></title>
-      <link>http://www.onesolved.com/post/visual_studio_templates/</link>
+      <link>http://onesolved.com/post/visual_studio_templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.onesolved.com/post/visual_studio_templates/</guid>
+      <guid>http://onesolved.com/post/visual_studio_templates/</guid>
       <description>Using Templates in Visual Studio tm
 attachedProperty:
 public static readonly DependencyProperty propertyNameProperty = DependencyProperty.RegisterAttached( &amp;ldquo;propertyName&amp;rdquo;, typeof(propertyType), typeof(TestInstanceIndicatorTest), new PropertyMetadata(default(propertyType)));
