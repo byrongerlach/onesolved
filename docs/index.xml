@@ -6,7 +6,16 @@
     <description>Recent content on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Sep 2018 10:46:53 -0800</lastBuildDate><atom:link href="http://onesolved.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://onesolved.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Commands</title>
+      <link>http://onesolved.com/post/git-commands/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://onesolved.com/post/git-commands/</guid>
+      <description>My Commonly-Used Git Commands    Shortcut Description     git status Show whether the local checkout is in sync with the remote.   git pull Get latest changes from the repo.   git add Add the changed file to the commit   git push Make a local commit.   git push remote Make a remote commit   git ls-tree &amp;ndash;full-tree -r HEAD Show files in repo.</description>
+    </item>
+    
     <item>
       <title>Resharper Zensharp Shortcuts</title>
       <link>http://onesolved.com/post/reshaper_zensharp_shortcuts/</link>
@@ -107,15 +116,6 @@ using System; using BenchmarkDotNet.</description>
 Themes There’s many available themes. I used the Mainroad theme, but I changed the colors.
 Composing Posts  To add a post, you just add a new markdown file with the correct metadata section at the top, and then run Hugo again to generate your static site.
 Here’s an example of what an actual posts look like written in markdown.</description>
-    </item>
-    
-    <item>
-      <title>Git Commands</title>
-      <link>http://onesolved.com/post/git-commands/</link>
-      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://onesolved.com/post/git-commands/</guid>
-      <description>My Commonly-Used Shortcuts    Shortcut Description     git status Show whether the local checkout is in sync with the remote   git pull Get latest changes from the repo   git add Add the changed file to the commit   git push Make a local commit   git push remote Make a remote commit   git ls-tree &amp;ndash;full-tree -r HEAD Show files in repo   git reset Undo all adds   git reset ~HEAD reset to last checkout    </description>
     </item>
     
     <item>

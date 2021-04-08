@@ -6,7 +6,16 @@
     <description>Recent content in commands on One Problem Solved</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Feb 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://onesolved.com/tags/commands/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://onesolved.com/tags/commands/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Commands</title>
+      <link>http://onesolved.com/post/git-commands/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://onesolved.com/post/git-commands/</guid>
+      <description>My Commonly-Used Git Commands    Shortcut Description     git status Show whether the local checkout is in sync with the remote.   git pull Get latest changes from the repo.   git add Add the changed file to the commit   git push Make a local commit.   git push remote Make a remote commit   git ls-tree &amp;ndash;full-tree -r HEAD Show files in repo.</description>
+    </item>
+    
     <item>
       <title>Dotnet Core Commands</title>
       <link>http://onesolved.com/post/dotnet_core_commands/</link>
@@ -14,15 +23,6 @@
       
       <guid>http://onesolved.com/post/dotnet_core_commands/</guid>
       <description>My Commonly-Used Commands    Shortcut Description     dotnet run Builds and runs the application   dotnet run &amp;ndash;no-build Run without building    </description>
-    </item>
-    
-    <item>
-      <title>Git Commands</title>
-      <link>http://onesolved.com/post/git-commands/</link>
-      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://onesolved.com/post/git-commands/</guid>
-      <description>My Commonly-Used Shortcuts    Shortcut Description     git status Show whether the local checkout is in sync with the remote   git pull Get latest changes from the repo   git add Add the changed file to the commit   git push Make a local commit   git push remote Make a remote commit   git ls-tree &amp;ndash;full-tree -r HEAD Show files in repo   git reset Undo all adds   git reset ~HEAD reset to last checkout    </description>
     </item>
     
     <item>
